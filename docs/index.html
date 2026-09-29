@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Capacidad de acceso: novedades de cada publicación</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Semi+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --tinta:#1D2B36; --tinta-2:#55646F; --fondo:#EEF2F4; --papel:#FFFFFF; --linea:#C3CDD4;
+  --energia:#E8A200; --energia-suave:#FFF4D6; --sube:#1E7F5C; --sube-suave:#E2F3EB;
+  --error:#B83A2E; --foco:#2B6CB0;
+  --texto:"Barlow","Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --cifras:"Barlow Semi Condensed","Arial Narrow","Segoe UI",Arial,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{--tinta:#E3E9ED;--tinta-2:#9EABB5;--fondo:#10171C;--papel:#18222A;--linea:#34434F;
+        --energia:#F2B42B;--energia-suave:#3A2E10;--sube:#4DBA8E;--sube-suave:#14322A;--error:#E3695C}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--fondo);color:var(--tinta);font:16px/1.5 var(--texto)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--foco);outline-offset:2px}
+.ancho{max-width:1180px;margin:0 auto;padding:0 24px}
+header{padding-top:44px}
+h1{font-size:clamp(30px,4.2vw,46px);line-height:1.08;font-weight:700;letter-spacing:-.012em;margin:0 0 10px;max-width:32ch}
+.entradilla{margin:0;color:var(--tinta-2);max-width:68ch}
+
+/* Barra colectora: cada fuente es una derivación con su interruptor */
+.barra{margin:40px auto 12px}
+.barra ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));border-top:6px solid var(--tinta)}
+.barra li{position:relative;padding:44px 14px 0 0}
+.barra li::before{content:"";position:absolute;top:0;left:12px;width:2px;height:26px;background:var(--tinta)}
+.barra li::after{content:"";position:absolute;top:24px;left:6px;width:14px;height:14px;border-radius:50%;background:var(--fondo);border:2px solid var(--tinta)}
+.barra li.nueva::after{background:var(--energia);border-color:var(--energia)}
+.barra li.error::after{background:var(--error);border-color:var(--error)}
+.barra b{display:block;font-weight:600;line-height:1.2}
+.barra span{display:block;font:15px/1.35 var(--cifras);color:var(--tinta-2)}
+.barra li.error span.aviso{color:var(--error)}
+.barra a{font:15px/1.35 var(--cifras)}
+
+main{padding-bottom:64px}
+.controles{display:flex;flex-wrap:wrap;gap:12px 16px;align-items:end;margin:36px 0 14px}
+.pestanas{display:flex;flex-wrap:wrap;gap:6px}
+.pestanas button{font:500 15px/1 var(--texto);color:var(--tinta);background:transparent;border:1.5px solid var(--linea);border-radius:999px;padding:9px 14px;cursor:pointer}
+.pestanas button[aria-selected="true"]{background:var(--tinta);color:var(--papel);border-color:var(--tinta)}
+.pestanas button .n{font-family:var(--cifras);margin-left:6px;opacity:.75}
+.filtros{display:flex;gap:10px;margin-left:auto;flex-wrap:wrap}
+label{display:grid;gap:4px;font-size:14px;color:var(--tinta-2)}
+input,select{font:15px var(--texto);color:var(--tinta);background:var(--papel);border:1.5px solid var(--linea);border-radius:6px;padding:8px 10px;min-width:220px}
+
+.tabla{background:var(--papel);border:1px solid var(--linea);border-radius:8px;overflow:auto}
+table{border-collapse:collapse;width:100%;font:15px/1.4 var(--cifras)}
+th{position:sticky;top:0;background:var(--papel);text-align:left;font-weight:600;color:var(--tinta-2);padding:10px 12px;border-bottom:1.5px solid var(--linea);white-space:nowrap}
+td{padding:9px 12px;border-bottom:1px solid var(--linea);vertical-align:top}
+tr:last-child td{border-bottom:0}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+td.nudo{font-family:var(--texto);font-weight:600}
+tr.afl td:first-child{box-shadow:inset 4px 0 0 var(--energia)}
+tr.afl td.delta{background:var(--energia-suave)}
+tr.inc td.delta{background:var(--sube-suave);color:var(--sube)}
+td.ctx{color:var(--tinta-2);min-width:220px}
+.vacio{padding:28px 20px;color:var(--tinta-2)}
+
+section.hist{margin-top:48px}
+h2{font-size:22px;margin:0 0 12px;font-weight:600}
+.hist ul{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:4px 32px}
+.hist li{padding:6px 0;border-bottom:1px solid var(--linea);font:15px/1.4 var(--cifras);display:flex;justify-content:space-between;gap:12px}
+footer{color:var(--tinta-2);font-size:14px;padding:24px 0 40px}
+
+@media (max-width:760px){
+  .barra ol{grid-template-columns:1fr;border-top:0;border-left:6px solid var(--tinta);padding-left:0}
+  .barra li{padding:12px 0 12px 44px}
+  .barra li::before{top:26px;left:0;width:26px;height:2px}
+  .barra li::after{top:19px;left:24px}
+  .filtros{margin-left:0;width:100%}
+  .filtros label{flex:1 1 100%}
+  input,select{min-width:0;width:100%}
+}
+</style>
+</head>
+<body>
+<header class="ancho">
+  <h1>Capacidad de acceso: qué ha cambiado en la última publicación</h1>
+  <p class="entradilla" id="entradilla"></p>
+</header>
+
+<nav class="barra ancho" aria-label="Estado de cada publicación"><ol id="barra"></ol></nav>
+
+<main class="ancho">
+  <div class="controles">
+    <div class="pestanas" role="tablist" id="pestanas"></div>
+    <div class="filtros">
+      <label>Buscar<input id="buscar" type="search" placeholder="Nudo, provincia o nudo RdT"></label>
+      <label>Fuente<select id="fuente"><option value="">Todas</option></select></label>
+    </div>
+  </div>
+  <div class="tabla" role="tabpanel" id="panel"></div>
+
+  <section class="hist" aria-labelledby="t-hist">
+    <h2 id="t-hist">Publicaciones analizadas</h2>
+    <ul id="historial"></ul>
+  </section>
+</main>
+<footer class="ancho">Datos de las páginas públicas de REE, i-DE y e-distribución. Valores orientativos: prevalece la publicación oficial y el estudio de cada solicitud.</footer>
+
+<script id="datos" type="application/json">{"actualizado": "2026-09-29T09:34:34+02:00", "umbral": 10, "fuentes": [{"id": "ree_generacion", "nombre": "REE generación"}, {"id": "ree_demanda", "nombre": "REE demanda"}, {"id": "ide_generacion", "nombre": "i-DE generación"}, {"id": "ide_demanda", "nombre": "i-DE demanda"}, {"id": "edistribucion_generacion", "nombre": "e-distribución generación"}, {"id": "edistribucion_demanda", "nombre": "e-distribución demanda"}], "hallazgos": [], "categorias": {"afloramiento": "Afloramientos (0 → >0 MW)", "incremento": "Incrementos", "autoconsumo_afloramiento": "Autoconsumo RDL 7/2026: afloramientos", "autoconsumo_incremento": "Autoconsumo RDL 7/2026: incrementos", "reserva": "Reservas o concursos nuevos", "nudo_nuevo": "Nudos nuevos con capacidad"}}</script>
+<script>
+const D = JSON.parse(document.getElementById('datos').textContent);
+const mw = v => v === null || v === undefined ? '—' : v.toLocaleString('es-ES', {maximumFractionDigits: 2});
+const fecha = s => s ? new Date(s.length > 10 ? s : s + 'T12:00:00').toLocaleDateString('es-ES', {day:'2-digit', month:'2-digit', year:'numeric'}) : '';
+const hora = s => new Date(s).toLocaleString('es-ES', {day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit'});
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const hoy = new Date();
+const mesActual = hoy.toLocaleDateString('es-ES', {month:'long'});
+
+document.getElementById('entradilla').textContent =
+  `Comparación automática de cada mapa de capacidad con el anterior. Se marca en ámbar la capacidad que aflora (de 0 a más de 0 MW) y en verde los aumentos de ${D.umbral} MW o más. Última comprobación: ${hora(D.actualizado)}.`;
+
+// Barra colectora
+const barra = document.getElementById('barra');
+for (const f of D.fuentes) {
+  const u = f.ultima || {};
+  const pub = u.fecha ? new Date(u.fecha + 'T12:00:00') : null;
+  const deEsteMes = pub && pub.getMonth() === hoy.getMonth() && pub.getFullYear() === hoy.getFullYear();
+  const total = u.contadores ? Object.values(u.contadores).reduce((a, b) => a + b, 0) : 0;
+  const li = document.createElement('li');
+  li.className = f.error ? 'error' : (deEsteMes ? 'nueva' : '');
+  let html = `<b>${esc(f.nombre)}</b>`;
+  if (f.error) html += `<span class="aviso">Error: ${esc(f.error)}</span>`;
+  if (pub) html += `<span>${deEsteMes ? 'Publicada' : 'Última'} el ${fecha(u.fecha)}${u.sello ? ` (${esc(u.sello)})` : ''}</span>`;
+  else html += `<span>Sin datos todavía</span>`;
+  if (pub && !deEsteMes) html += `<span>Pendiente de ${mesActual}</span>`;
+  if (pub) html += `<span>${total ? total + ' novedades' : 'Sin novedades'}</span>`;
+  if (u.informe) html += `<a href="${esc(u.informe)}">Informe Excel</a>`;
+  li.innerHTML = html;
+  barra.appendChild(li);
+  const op = document.createElement('option'); op.value = f.id; op.textContent = f.nombre;
+  document.getElementById('fuente').appendChild(op);
+}
+
+// Pestañas por categoría
+const cats = Object.entries(D.categorias);
+let actual = cats.find(([k]) => D.hallazgos.some(h => h.categoria === k))?.[0] || cats[0][0];
+const pestanas = document.getElementById('pestanas');
+function pintarPestanas() {
+  pestanas.innerHTML = '';
+  for (const [k, titulo] of cats) {
+    const n = filtrados(k).length;
+    const b = document.createElement('button');
+    b.role = 'tab'; b.setAttribute('aria-selected', k === actual);
+    b.innerHTML = `${esc(titulo)}<span class="n">${n}</span>`;
+    b.onclick = () => { actual = k; pintar(); };
+    pestanas.appendChild(b);
+  }
+}
+function filtrados(cat) {
+  const q = document.getElementById('buscar').value.trim().toLowerCase();
+  const fu = document.getElementById('fuente').value;
+  return D.hallazgos.filter(h => h.categoria === cat && (!fu || h.fuente_id === fu) &&
+    (!q || (h.nudo + ' ' + h.metrica + ' ' + Object.values(h.contexto || {}).join(' ')).toLowerCase().includes(q)));
+}
+function pintar() {
+  pintarPestanas();
+  const filas = filtrados(actual);
+  const panel = document.getElementById('panel');
+  if (!filas.length) {
+    panel.innerHTML = `<p class="vacio">No hay novedades de este tipo en la última publicación de cada fuente. Cambia de pestaña o quita los filtros.</p>`;
+    return;
+  }
+  const reserva = actual === 'reserva';
+  const clase = actual.includes('afloramiento') || actual === 'nudo_nuevo' ? 'afl' : (actual.includes('incremento') ? 'inc' : '');
+  let html = `<table><thead><tr><th>Fuente</th><th>Nudo</th><th>${reserva ? 'Columna' : 'Capacidad'}</th>` +
+    (reserva ? `<th>Cambio</th>` : `<th class="num">Antes (MW)</th><th class="num">Ahora (MW)</th><th class="num">Variación</th>`) +
+    `<th>Contexto</th></tr></thead><tbody>`;
+  for (const h of filas) {
+    const ctx = Object.entries(h.contexto || {}).map(([k, v]) => `${esc(k)}: ${esc(v)}`).join('<br>');
+    html += `<tr class="${clase}"><td>${esc(h.fuente)}</td><td class="nudo">${esc(h.nudo)}</td><td>${esc(h.metrica)}</td>` +
+      (reserva ? `<td>${esc(h.detalle)}</td>` :
+        `<td class="num">${mw(h.antes)}</td><td class="num">${mw(h.ahora)}</td><td class="num delta">+${mw(h.delta)}</td>`) +
+      `<td class="ctx">${ctx}</td></tr>`;
+  }
+  panel.innerHTML = html + '</tbody></table>';
+}
+document.getElementById('buscar').oninput = pintar;
+document.getElementById('fuente').onchange = pintar;
+pintar();
+
+// Historial
+const hist = document.getElementById('historial');
+for (const f of D.fuentes) for (const h of (f.historial || []).slice(0, 6)) {
+  const li = document.createElement('li');
+  li.innerHTML = `<span>${esc(f.nombre)}, ${fecha(h.fecha)}</span>${h.informe ? `<a href="${esc(h.informe)}">Excel</a>` : ''}`;
+  hist.appendChild(li);
+}
+if (!hist.children.length) hist.innerHTML = '<li>Aún no se ha analizado ninguna publicación.</li>';
+</script>
+</body>
+</html>

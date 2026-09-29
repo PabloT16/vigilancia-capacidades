@@ -1,0 +1,29 @@
+Nombre y tensión del nudo;Código Subestación;Comunidad Autónoma;POSICIONES DE GEN/ALM;;;;CRITERIO DE POTENCIA DE CORTOCIRCUITO (WSCR);;;;CRITERIO ESTÁTICO GENERACIÓN;;;CRITERIO ESTÁTICO ALMACENAMIENTO;;;CRITERIO DINÁMICO;;;;SITUACIÓN NUDO CAPACIDAD DE ACCESO OTORGADA;;;;;;;SITUACIÓN NUDO CAPACIDAD DE ACCESO EN CURSO DE TRAMITACIÓN;;;;;;;MARGEN DE CAPACIDAD DE ACCESO TOTAL;;;;CRITERIOS LIMITANTES;;;;;;;;CAPACIDAD DE ACCESO NO DISPONIBLE PARA SOLICITUDES A LA RED DE TRANSPORTE Y ACEPTABILIDADES;;;;;CAPACIDAD DE ACCESO DISPONIBLE PARA SOLICITUDES A LA RED DE TRANSPORTE Y ACEPTABILIDADES;;;;;;;;CAPACIDAD DE ACCESO LIBERADA PARA SOLICITUDES DE AUTOCONSUMO SEGÚN  EL REAL DECRETO-LEY 7/2026;;;;;;Motivo de reserva de capacidad de acceso en el nudo;Normativa específica reguladora de la concesión de la capacidad de acceso;;;;;;;;;;;;;;;
+;;;A red de transporte;;A red de distribución;;Capacidad de acceso nodal;Binudos;Afección de CS a seguridad del sistema;Margen no ocupado;Capacidad de acceso nodal; Zona con capacidad compartida a la que pertenece el nudo;Margen no ocupado;Capacidad de acceso nodal; Zona con capacidad compartida a la que pertenece el nudo;Margen no ocupado;Capacidad de acceso nodal; Zona con capacidad compartida a la que pertenece el nudo;Limitación interna por configuración del nudo;Margen no ocupado;Capacidad de acceso otorgada MGE;Capacidad de acceso otorgada MGES;Capacidad de acceso otorgada MPE con afección WSCR;Capacidad de acceso otorgada MPE sin afección WSCR;Capacidad de acceso otorgada MPE;Capacidad de acceso otorgada GEN;Capacidad de acceso otorgada ALM;Capacidad de acceso solicitada en curso y pendiente resolver MGE;Capacidad de acceso solicitada en curso y pendiente resolver MGES;Capacidad de acceso solicitada en curso y pendiente resolver MPE con afección WSCR;Capacidad de acceso solicitada en curso y pendiente resolver MPE sin afección WSCR;Capacidad de acceso solicitada en curso y pendiente resolver MPE;Capacidad de acceso solicitada en curso y pendiente resolver GEN;Capacidad de acceso solicitada en curso y pendiente resolver ALM;Generación;;Almacenamiento;;Generación;;Almacenamiento;;Limitación por Posición;;;;Generación;;Almacenamiento;;Motivo capacidad no disponible;Generación;;;;Almacenamiento;;;;"Capacidad de acceso liberada para MGES 
+[MW]";"Capacidad de acceso liberada para MPE 
+[MW]";"Capacidad de acceso otorgada para MGES 
+[MW]";"Capacidad de acceso otorgada para MPE 
+[MW]";"Capacidad de acceso disponible para MGES 
+[MW]";"Capacidad de acceso disponible para MPE 
+[MW]";;;;;;;;;;;;;;;;;
+;;;E;P;E;P;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"MGES 
+[MW]";"MPE
+[MW]";"MGES 
+[MW]";" MPE
+[MW]";MGES;MPE;MGES;MPE;Capacidad máxima otorgable en el nudo;¿Existe limitación por posición?;Margen MGES;Margen MPE;"MGES 
+[MW]";"MPE
+[MW]";"MGES 
+[MW]";" MPE
+[MW]";;"MGES RdTo MPE con compensador síncrono RdT
+[MW]";"MPE RdT
+[MW]";"MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD
+[MW]";"MPE RdD
+[MW]";"MGES RdTo MPE con compensador síncrono RdT
+[MW]";"MPE RdT
+[MW]";"MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD
+[MW]";"MPE RdD
+[MW]";;;;;;;;;;;;;;;;;;;;;;;
+ABADES 400;52065;Castilla y León;;1;;;428; N/A ;  ;428;2.406;E268_SEPE;2.406;2.408;E268_SEPE;2.408;906; D59_SEPE ;906;906;0;0;0;0;0;0;0;0;0;0;0;0;0;0;906;428;906;428;D_Nudo/D_Zona;WSCR_Nudo;D_Nudo/D_Zona;WSCR_Nudo;600;;600;428;906;428;906;428;Concurso por resolución SEE. ;0;0;0;0;0;0;0;0;55;7;0;0;55;7;Concurso;;;;;;;;;;;;;;;;
+ALCOCERO DE MOLA 220;50016;Castilla y León;2;1;;1;412; N/A ;  ;1;1.027;E178_SEPE;145;1.203;E178_SEPE;592;1.183; N/A ;N/A;756;426;16;410;0;410;426;0;1.418;0;302;1.116;1.418;941;477;145;1;592;1;Est_Gen_Zona;WSCR_Nudo;Est_Alm_Zona;WSCR_Nudo;1.200;;145;1;0;0;447;0;;145;1;145;1;145;1;592;1;0;0;0;0;0;0;;;;;;;;;;;;;;;;;
+BARCINA 400;50073;Castilla y León;1;1;;;1.398; N/A ;  ;803;2.226;E74_SEPE;1.631;2.590;E74_SEPE;1.844;475; N/A ;475;0;595;0;595;0;595;595;0;150;0;150;0;150;150;0;132;132;132;132;D_Nudo;D_Nudo;D_Nudo;D_Nudo;1.200;;0;0;132;132;132;132;Nudo de Transición Justa. Margen zonal reservado concurso por resolución SEE/posible concurso/NTJ. ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;NTJ;;;;;;;;;;;;;;;;
+GAROÑA 220;50239;Castilla y León;;1;;;1.021; N/A ;  ;1.021;1.044;E74_SEPE;992;1.143;E74_SEPE;992;966; N/A ;N/A;815;151;151;0;0;0;0;151;0;0;0;0;0;0;0;815;815;815;815;D_Nudo;D_Nudo;D_Nudo;D_Nudo;400;;249;249;815;815;815;815;Nudo de Transición Justa. Margen zonal reservado concurso por resolución SEE/posible concurso/NTJ. ;0;0;0;0;0;0;0;0;0;0;0;0;0;0;NTJ;Orden TED/345/2024;;;;;;;;;;;;;;;

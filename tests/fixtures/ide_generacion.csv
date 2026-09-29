@@ -1,0 +1,5 @@
+Gestor de red;Provincia;Municipio;Coordenada UTM X;Coordenada UTM Y;Subestación;Nivel de Tensión (kV);Capacidad disponible (MW);Capacidad comprometida por cuestiones regulatorias;Capacidad ocupada (MW);Capacidad admitida y no resuelta (MW);Posiciones ocupadas;Posiciones libres;Nudo Afección RdT;Nudo limitado por Scc;Nudo 0*;Comentarios;Denominación del Punto de Conexión;Identificador del Punto de Conexión
+R1-001;Araba/Álava;Vitoria-Gasteiz;523922,106338171;4744874,00934341;3017;30;27,43;1;0,05;65,61;;;ALI 220;0;0;Nudo de transporte en concurso de generación;ST STR ALI A30.000;0025230000
+R1-001;Alicante/Alacant;Finestrat;746710,11760057;4268819,48675266;3543;132;161,06;0;0;0;0;0;JIJONA 220;0;0;;BENIDORM    132.00;0081004267
+R1-001;Alicante/Alacant;Calp;762738,050048245;4281141,09289205;3198;20;27,91;0;0;0;;;MONTEBELLO 220;0;0;;CALPE T1    ;0403065029
+R1-001;Burgos;Miranda de Ebro;506454,094497145;4727043,21656751;3091;30;16,36;0;48,91;0;;;MIRANDA 220;0;0;;MIRANDA T5 30;0031001374

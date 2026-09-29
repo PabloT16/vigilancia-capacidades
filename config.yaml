@@ -1,0 +1,95 @@
+# Configuración de la vigilancia de capacidades de acceso.
+# Las expresiones (regex) ignoran mayúsculas y acentos. Para ver los nombres de columna
+# reales de un fichero usa:  python -m capmon inspeccionar <id_fuente>
+
+umbral_incremento_mw: 10          # aviso cuando la capacidad disponible sube al menos esto
+excluir_afloramientos_de_incrementos: true   # un nudo que aflora no se repite en "incrementos"
+vacio_como_cero: true             # celda vacía el mes anterior = 0 MW (p. ej. REE demanda sin valor acordado)
+max_lineas_aviso: 15              # líneas de detalle por categoría en Telegram/Teams (el Excel lleva todo)
+
+fuentes:
+  - id: ree_generacion
+    nombre: REE generación
+    gestor: REE
+    tipo: generación
+    pagina: https://www.ree.es/es/clientes/generador/acceso-conexion/conoce-la-capacidad-de-acceso
+    patron_fichero: '(\d{4})_(\d{2})_(\d{2})_GRT_generacion\.(?:csv|xlsx)'
+    sello: 'Informaci[oó]n actualizada a ([^:]+)'
+    anterior_por_url: true        # REE solo enlaza el fichero vigente: el anterior se deduce de la URL
+    clave: '^nombre y tension del nudo'
+    contexto: ['^comunidad autonoma', '^codigo subestacion']
+    metricas:
+      - grupo: '^capacidad de acceso disponible para solicitudes'
+        categoria: general
+      - grupo: 'autoconsumo'       # bloque "CAPACIDAD DE ACCESO LIBERADA ... AUTOCONSUMO ... RDL 7/2026"
+        categoria: autoconsumo
+    reserva: ['^motivo de reserva de capacidad']
+
+  - id: ree_demanda
+    nombre: REE demanda
+    gestor: REE
+    tipo: demanda
+    pagina: https://www.ree.es/es/clientes/consumidor/acceso-conexion/conoce-la-capacidad-de-acceso
+    patron_fichero: '(\d{4})_(\d{2})_(\d{2})_GRT_demanda\.(?:csv|xlsx)'
+    sello: 'Informaci[oó]n actualizada a ([^:]+)'
+    anterior_por_url: true
+    clave: '^nombre y tension del nudo'
+    contexto: ['^comunidad autonoma', '^codigo de subestacion']
+    metricas:
+      - grupo: '^capacidad de acceso disponible para solicitudes'
+        categoria: general
+    reserva: ['^nudo de concurso']
+
+  - id: ide_generacion
+    nombre: i-DE generación
+    gestor: i-DE
+    tipo: generación
+    pagina: https://www.i-de.es/conexion-red-electrica/produccion-energia/mapa-capacidad-acceso
+    patron_fichero: '(\d{4})_(\d{2})_(\d{2})_r1-001_[a-z_]*generacion'
+    sello: 'publicaci[oó]n del PDF:\s*([^\n]+?)\.\s'
+    clave: '^identificador del punto de conexion'
+    columna_nombre: '^denominacion del punto de conexion'
+    contexto: ['^provincia', '^municipio', '^nivel de tension', '^nudo afeccion', '^comentarios']
+    metricas:
+      - columna: 'capacidad disponible'
+        excluir: 'no disponible'
+
+  - id: ide_demanda
+    nombre: i-DE demanda
+    gestor: i-DE
+    tipo: demanda
+    pagina: https://www.i-de.es/conexion-red-electrica/suministro-electrico/mapa-capacidad-consumo
+    patron_fichero: '(\d{4})_(\d{2})_(\d{2})_r1-001_[a-z_]*(?:demanda|consumo)'
+    sello: 'publicaci[oó]n del PDF:\s*([^\n]+?)\.\s'
+    clave: '^identificador del punto de conexion'
+    columna_nombre: '^denominacion del punto de conexion'
+    contexto: ['^provincia', '^municipio', '^nivel de tension', '^nudo afeccion', '^comentarios']
+    metricas:
+      - columna: 'capacidad.*disponible'
+        excluir: 'no disponible'
+
+  - id: edistribucion_generacion
+    nombre: e-distribución generación
+    gestor: e-distribución
+    tipo: generación
+    pagina: https://www.edistribucion.com/es/red-electrica/nodos-capacidad-red/capacidad-generacion.html
+    patron_fichero: '(\d{4})_(\d{2})_(\d{2})_R1299_generaci[oó]n\.(?:csv|xlsx)'
+    clave: '^identificador del punto de conexion'
+    columna_nombre: '^denominacion del punto de conexion'
+    contexto: ['^provincia', '^municipio', '^nivel de tension', '^nudo afeccion', '^comentarios']
+    metricas:
+      - columna: 'capacidad disponible'
+        excluir: 'no disponible'
+
+  - id: edistribucion_demanda
+    nombre: e-distribución demanda
+    gestor: e-distribución
+    tipo: demanda
+    pagina: https://www.edistribucion.com/es/red-electrica/nodos-capacidad-red/capacidad-demanda.html
+    patron_fichero: '(\d{4})_(\d{2})_(\d{2})_R1299_[a-z_]*demanda\.(?:csv|xlsx)'
+    clave: '^identificador del punto de conexion'
+    columna_nombre: '^denominacion del punto de conexion'
+    contexto: ['^provincia', '^municipio', '^nivel de tension', '^nudo afeccion', '^comentarios']
+    metricas:
+      - columna: 'capacidad.*disponible'
+        excluir: 'no disponible'
