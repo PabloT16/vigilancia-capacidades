@@ -1,6 +1,7 @@
 """Comparación de dos publicaciones de capacidad de la misma fuente."""
 from __future__ import annotations
 
+import re
 from dataclasses import asdict, dataclass, field
 
 import pandas as pd
@@ -51,10 +52,17 @@ class FormatoDesconocido(Exception):
     """El fichero no tiene las columnas esperadas (probable cambio de formato del publicador)."""
 
 
-def _indexar(df: pd.DataFrame, col_clave: str) -> dict[str, pd.Series]:
+def _columnas(df: pd.DataFrame, exprs) -> list[str] | None:
+    """Una o varias columnas (la clave puede ser compuesta, p. ej. subestación + tensión)."""
+    exprs = [exprs] if isinstance(exprs, str) else list(exprs or [])
+    cols = [primera_columna(df, e) for e in exprs]
+    return cols if cols and all(cols) else None
+
+
+def _indexar(df: pd.DataFrame, cols_clave: list[str]) -> dict[str, pd.Series]:
     indice, repetidas = {}, {}
     for _, fila in df.iterrows():
-        clave = limpiar(fila[col_clave])
+        clave = " | ".join(limpiar(fila[c]) for c in cols_clave).strip(" |")
         if not clave:
             continue
         repetidas[clave] = repetidas.get(clave, 0) + 1
@@ -72,10 +80,11 @@ def _modo(df: pd.DataFrame, columnas: list[str]) -> str:
 def comparar(df_ant: pd.DataFrame, df_act: pd.DataFrame, fuente: dict, umbral: float = 10.0,
              excluir_afloramientos: bool = True, vacio_como_cero: bool = True) -> Resultado:
     avisos: list[str] = []
-    col_clave = primera_columna(df_act, fuente["clave"])
-    col_clave_ant = primera_columna(df_ant, fuente["clave"])
+    col_clave = _columnas(df_act, fuente["clave"])
+    col_clave_ant = _columnas(df_ant, fuente["clave"])
     if not col_clave or not col_clave_ant:
-        raise FormatoDesconocido(f"No encuentro la columna identificadora ('{fuente['clave']}').")
+        raise FormatoDesconocido(f"No encuentro la columna identificadora ({fuente['clave']}). "
+                                 f"Columnas del fichero: {', '.join(list(df_act.columns)[:25])}")
 
     metricas = seleccionar_metricas(df_act, fuente.get("metricas", []))
     if not metricas:
@@ -85,7 +94,7 @@ def comparar(df_ant: pd.DataFrame, df_act: pd.DataFrame, fuente: dict, umbral: f
         if col not in metricas_ant:
             avisos.append(f"Columna nueva este mes (no se compara): {etiqueta}")
 
-    col_nombre = primera_columna(df_act, fuente["columna_nombre"]) if fuente.get("columna_nombre") else None
+    cols_nombre = _columnas(df_act, fuente.get("columna_nombre"))
     cols_contexto = []
     for expr in fuente.get("contexto", []):
         cols_contexto += [c for c in buscar_columnas(df_act, expr) if c not in cols_contexto]
@@ -96,10 +105,14 @@ def comparar(df_ant: pd.DataFrame, df_act: pd.DataFrame, fuente: dict, umbral: f
     ant, act = _indexar(df_ant, col_clave_ant), _indexar(df_act, col_clave)
 
     def nombre_de(fila, clave):
-        return limpiar(fila[col_nombre]) if col_nombre and limpiar(fila[col_nombre]) else clave
+        if not cols_nombre:
+            return clave
+        partes = [limpiar(fila[c]) + (" kV" if "tension" in c.lower().replace("ó", "o") else "") for c in cols_nombre
+                  if limpiar(fila[c])]
+        return " ".join(partes) or clave
 
     def contexto_de(fila):
-        return {c.split(" | ")[-1]: limpiar(fila[c]) for c in cols_contexto if limpiar(fila[c])}
+        return {re.sub(r" #\d+$", "", c.split(" | ")[-1]): limpiar(fila[c]) for c in cols_contexto if limpiar(fila[c])}
 
     hallazgos: list[Hallazgo] = []
     for clave, fila in act.items():
