@@ -7,7 +7,7 @@
   "sha256": "cd9e4fe7f3ef824df57639bb9d82f845a508480a713881bdcd565e50fc58b71a",
   "fichero": "data/ree_generacion/2026-09-01_cd9e4fe7.csv.gz",
   "comprobado": "2026-09-30",
-  "detectado": "2026-09-30T09:50:16+02:00"
+  "detectado": "2026-09-30T10:07:03+02:00"
  },
  "ree_demanda": {
   "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_demanda.csv",
@@ -17,7 +17,7 @@
   "sha256": "8d428165ecbf73c520717c551c1faa94c3461639e68a87d670031c667ccd3e3d",
   "fichero": "data/ree_demanda/2026-09-01_8d428165.csv.gz",
   "comprobado": "2026-09-30",
-  "detectado": "2026-09-30T09:50:28+02:00"
+  "detectado": "2026-09-30T10:07:16+02:00"
  },
  "edistribucion_generacion": {
   "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/generacion/202609/2026_09_03_R1299_generación.csv",
@@ -27,7 +27,7 @@
   "sha256": "c4c338e5f05269bfa8cf8d960029c5e7cc67f87571c6666410f4121468bb7d79",
   "fichero": "data/edistribucion_generacion/2026-09-03_c4c338e5.csv.gz",
   "comprobado": "2026-09-30",
-  "detectado": "2026-09-30T09:52:55+02:00"
+  "detectado": "2026-09-30T10:08:22+02:00"
  },
  "edistribucion_demanda": {
   "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202609/2026_09_03_R1299_demanda.csv",
@@ -37,6 +37,26 @@
   "sha256": "34cbf90905a2f951971f9cf19a0888c653d53f31fc7281e03bce87b5b44edccb",
   "fichero": "data/edistribucion_demanda/2026-09-03_34cbf909.csv.gz",
   "comprobado": "2026-09-30",
-  "detectado": "2026-09-30T09:52:59+02:00"
+  "detectado": "2026-09-30T10:08:26+02:00"
+ },
+ "ide_generacion": {
+  "url": "https://www.i-de.es/documents/d/guest/2026_09_04_r1-001_generacion-1-",
+  "fecha": "2026-09-04",
+  "formato": "csv",
+  "firma": "|Fri, 04 Sep 2026 10:20:34 GMT|408976",
+  "sha256": "433c575f74727eab2880f1ff5e4323db11b0c9ce12ff2e71a3b8e025fe1b5171",
+  "fichero": "data/ide_generacion/2026-09-04_433c575f.csv.gz",
+  "comprobado": "2026-09-30",
+  "detectado": "2026-09-30T10:07:46+02:00"
+ },
+ "ide_demanda": {
+  "url": "https://www.i-de.es/documents/d/guest/2026_09_04_r1-001_demanda-1-",
+  "fecha": "2026-09-04",
+  "formato": "csv",
+  "firma": "|Fri, 04 Sep 2026 10:21:03 GMT|344722",
+  "sha256": "1e486a6a825bcc712ac507a3c8ff3323226a64929224c77ccb4781b1d961f524",
+  "fichero": "data/ide_demanda/2026-09-04_1e486a6a.csv.gz",
+  "comprobado": "2026-09-30",
+  "detectado": "2026-09-30T10:08:17+02:00"
  }
 }

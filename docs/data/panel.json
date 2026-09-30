@@ -11,7 +11,7 @@
     "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_generacion.csv",
     "sello": "1 de septiembre de 2026",
     "anterior": "",
-    "detectado": "2026-09-30T09:50:16+02:00",
+    "detectado": "2026-09-30T10:07:03+02:00",
     "informe": "informes/ree_generacion_2026-09-01.xlsx",
     "contadores": {
      "afloramiento": 0,
@@ -32,7 +32,7 @@
      "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_generacion.csv",
      "sello": "1 de septiembre de 2026",
      "anterior": "",
-     "detectado": "2026-09-30T09:50:16+02:00",
+     "detectado": "2026-09-30T10:07:03+02:00",
      "informe": "informes/ree_generacion_2026-09-01.xlsx",
      "contadores": {
       "afloramiento": 0,
@@ -59,7 +59,7 @@
     "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_demanda.csv",
     "sello": "1 de septiembre de 2026",
     "anterior": "",
-    "detectado": "2026-09-30T09:50:28+02:00",
+    "detectado": "2026-09-30T10:07:16+02:00",
     "informe": "informes/ree_demanda_2026-09-01.xlsx",
     "contadores": {
      "afloramiento": 0,
@@ -80,7 +80,7 @@
      "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_demanda.csv",
      "sello": "1 de septiembre de 2026",
      "anterior": "",
-     "detectado": "2026-09-30T09:50:28+02:00",
+     "detectado": "2026-09-30T10:07:16+02:00",
      "informe": "informes/ree_demanda_2026-09-01.xlsx",
      "contadores": {
       "afloramiento": 0,
@@ -102,8 +102,44 @@
    "gestor": "i-DE",
    "tipo": "generación",
    "pagina": "https://www.i-de.es/conexion-red-electrica/produccion-energia/mapa-capacidad-acceso",
-   "error": "HTTPError: HTTP 503 (servidor: desconocido; posible bloqueo a las máquinas de GitHub)",
-   "error_desde": "2026-09-30T09:51:40+02:00"
+   "error": "",
+   "error_desde": "2026-09-30T09:51:40+02:00",
+   "ultima": {
+    "fecha": "2026-09-04",
+    "url": "https://www.i-de.es/documents/d/guest/2026_09_04_r1-001_generacion-1-",
+    "sello": "04/09/2026 a las 13:30H",
+    "anterior": "2026-08-03",
+    "detectado": "2026-09-30T10:07:46+02:00",
+    "informe": "informes/ide_generacion_2026-09-04.xlsx",
+    "contadores": {
+     "afloramiento": 1,
+     "incremento": 4,
+     "autoconsumo_afloramiento": 0,
+     "autoconsumo_incremento": 0,
+     "reserva": 0,
+     "nudo_nuevo": 0
+    },
+    "avisos": []
+   },
+   "historial": [
+    {
+     "fecha": "2026-09-04",
+     "url": "https://www.i-de.es/documents/d/guest/2026_09_04_r1-001_generacion-1-",
+     "sello": "04/09/2026 a las 13:30H",
+     "anterior": "2026-08-03",
+     "detectado": "2026-09-30T10:07:46+02:00",
+     "informe": "informes/ide_generacion_2026-09-04.xlsx",
+     "contadores": {
+      "afloramiento": 1,
+      "incremento": 4,
+      "autoconsumo_afloramiento": 0,
+      "autoconsumo_incremento": 0,
+      "reserva": 0,
+      "nudo_nuevo": 0
+     },
+     "avisos": []
+    }
+   ]
   },
   "ide_demanda": {
    "id": "ide_demanda",
@@ -111,8 +147,44 @@
    "gestor": "i-DE",
    "tipo": "demanda",
    "pagina": "https://www.i-de.es/conexion-red-electrica/suministro-electrico/mapa-capacidad-consumo",
-   "error": "HTTPError: HTTP 503 (servidor: desconocido; posible bloqueo a las máquinas de GitHub)",
-   "error_desde": "2026-09-30T09:52:52+02:00"
+   "error": "",
+   "error_desde": "2026-09-30T09:52:52+02:00",
+   "ultima": {
+    "fecha": "2026-09-04",
+    "url": "https://www.i-de.es/documents/d/guest/2026_09_04_r1-001_demanda-1-",
+    "sello": "",
+    "anterior": "2026-08-03",
+    "detectado": "2026-09-30T10:08:17+02:00",
+    "informe": "informes/ide_demanda_2026-09-04.xlsx",
+    "contadores": {
+     "afloramiento": 9,
+     "incremento": 0,
+     "autoconsumo_afloramiento": 0,
+     "autoconsumo_incremento": 0,
+     "reserva": 0,
+     "nudo_nuevo": 0
+    },
+    "avisos": []
+   },
+   "historial": [
+    {
+     "fecha": "2026-09-04",
+     "url": "https://www.i-de.es/documents/d/guest/2026_09_04_r1-001_demanda-1-",
+     "sello": "",
+     "anterior": "2026-08-03",
+     "detectado": "2026-09-30T10:08:17+02:00",
+     "informe": "informes/ide_demanda_2026-09-04.xlsx",
+     "contadores": {
+      "afloramiento": 9,
+      "incremento": 0,
+      "autoconsumo_afloramiento": 0,
+      "autoconsumo_incremento": 0,
+      "reserva": 0,
+      "nudo_nuevo": 0
+     },
+     "avisos": []
+    }
+   ]
   },
   "edistribucion_generacion": {
    "id": "edistribucion_generacion",
@@ -127,7 +199,7 @@
     "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/generacion/202609/2026_09_03_R1299_generación.csv",
     "sello": "",
     "anterior": "2026-08-03",
-    "detectado": "2026-09-30T09:52:55+02:00",
+    "detectado": "2026-09-30T10:08:22+02:00",
     "informe": "informes/edistribucion_generacion_2026-09-03.xlsx",
     "contadores": {
      "afloramiento": 26,
@@ -145,7 +217,7 @@
      "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/generacion/202609/2026_09_03_R1299_generación.csv",
      "sello": "",
      "anterior": "2026-08-03",
-     "detectado": "2026-09-30T09:52:55+02:00",
+     "detectado": "2026-09-30T10:08:22+02:00",
      "informe": "informes/edistribucion_generacion_2026-09-03.xlsx",
      "contadores": {
       "afloramiento": 26,
@@ -172,7 +244,7 @@
     "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202609/2026_09_03_R1299_demanda.csv",
     "sello": "",
     "anterior": "2026-08-03",
-    "detectado": "2026-09-30T09:52:59+02:00",
+    "detectado": "2026-09-30T10:08:26+02:00",
     "informe": "informes/edistribucion_demanda_2026-09-03.xlsx",
     "contadores": {
      "afloramiento": 0,
@@ -190,7 +262,7 @@
      "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202609/2026_09_03_R1299_demanda.csv",
      "sello": "",
      "anterior": "2026-08-03",
-     "detectado": "2026-09-30T09:52:59+02:00",
+     "detectado": "2026-09-30T10:08:26+02:00",
      "informe": "informes/edistribucion_demanda_2026-09-03.xlsx",
      "contadores": {
       "afloramiento": 0,
@@ -206,6 +278,253 @@
   }
  },
  "hallazgos": [
+  {
+   "categoria": "afloramiento",
+   "clave": "0528066852",
+   "nudo": "PIARROYO T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 3.9,
+   "delta": 3.9,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Móstoles",
+    "Nivel de Tensión (kV)": "15",
+    "Nudo Afección RdT": "MORALEJA 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0021046173",
+   "nudo": "MORALEJA A1 45.000",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 26.44,
+   "ahora": 39.94,
+   "delta": 13.5,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Moraleja de Enmedio",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "MORALEJA 220",
+    "Comentarios": "Nudo de transporte en concurso de generación"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0021046174",
+   "nudo": "MORALEJA B1 45.000",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 25.5,
+   "ahora": 38.87,
+   "delta": 13.37,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Moraleja de Enmedio",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "MORALEJA 220",
+    "Comentarios": "Nudo de transporte en concurso de generación"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0528066945",
+   "nudo": "ZARZALEJ T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 20.21,
+   "ahora": 32.52,
+   "delta": 12.31,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Arroyomolinos",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "MORALEJA 220",
+    "Comentarios": "Nudo de transporte en concurso de generación"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0528066756",
+   "nudo": "ELMAZO T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 11.25,
+   "ahora": 21.27,
+   "delta": 10.02,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Fuenlabrada",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "MORALEJA 220",
+    "Comentarios": "Nudo de transporte en concurso de generación"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0403065157",
+   "nudo": "SALADAS T2",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 22.04,
+   "delta": 22.04,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Alicante/Alacant",
+    "Municipio": "Elx/Elche",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0403065155",
+   "nudo": "SALADAS T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 22.02,
+   "delta": 22.02,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Alicante/Alacant",
+    "Municipio": "Elx/Elche",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0012001072",
+   "nudo": "LADA 132.00",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 4.37,
+   "delta": 4.37,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Asturias",
+    "Municipio": "Langreo",
+    "Nivel de Tensión (kV)": "132"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0012050017",
+   "nudo": "LADA T1 30",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 4.37,
+   "delta": 4.37,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Asturias",
+    "Municipio": "Langreo",
+    "Nivel de Tensión (kV)": "30"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0233384401",
+   "nudo": "LADA T2 30",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 4.37,
+   "delta": 4.37,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Asturias",
+    "Municipio": "Langreo",
+    "Nivel de Tensión (kV)": "30"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0430088693",
+   "nudo": "ASOMADA T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 4.05,
+   "delta": 4.05,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Murcia",
+    "Municipio": "Cartagena",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0430088720",
+   "nudo": "ASOMADA T2",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 1.02,
+   "delta": 1.02,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Murcia",
+    "Municipio": "Cartagena",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0446177400",
+   "nudo": "BENIFERRI T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 0.5,
+   "delta": 0.5,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Valencia/València",
+    "Municipio": "València",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0528065013",
+   "nudo": "BOADILLA T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 0.27,
+   "delta": 0.27,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Boadilla del Monte",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
   {
    "categoria": "afloramiento",
    "clave": "59101437 | 20",
