@@ -74,9 +74,10 @@ fuentes:
     tipo: generación
     pagina: https://www.edistribucion.com/es/red-electrica/nodos-capacidad-red/capacidad-generacion.html
     patron_fichero: '(\d{4})_(\d{2})_(\d{2})_R1299_generaci[oó]n\.(?:csv|xlsx)'
-    clave: '^identificador del punto de conexion'
-    columna_nombre: '^denominacion del punto de conexion'
-    contexto: ['^provincia', '^municipio', '^nivel de tension', '^nudo afeccion', '^comentarios']
+    # Formato de e-distribución: sin identificador del punto; el nudo es subestación + tensión.
+    clave: ['^subestacion$', '^nivel de tension']
+    columna_nombre: ['^nombre subestacion', '^nivel de tension']
+    contexto: ['^comunidad autonoma', '^provincia #2', '^municipio #2', '^nudo afeccion', '^comentarios']
     metricas:
       - columna: 'capacidad disponible'
         excluir: 'no disponible'
@@ -87,9 +88,10 @@ fuentes:
     tipo: demanda
     pagina: https://www.edistribucion.com/es/red-electrica/nodos-capacidad-red/capacidad-demanda.html
     patron_fichero: '(\d{4})_(\d{2})_(\d{2})_R1299_[a-z_]*demanda\.(?:csv|xlsx)'
-    clave: '^identificador del punto de conexion'
-    columna_nombre: '^denominacion del punto de conexion'
-    contexto: ['^provincia', '^municipio', '^nivel de tension', '^nudo afeccion', '^comentarios']
+    # Formato de e-distribución: sin identificador del punto; el nudo es subestación + tensión.
+    clave: ['^subestacion$', '^nivel de tension']
+    columna_nombre: ['^nombre subestacion', '^nivel de tension']
+    contexto: ['^comunidad autonoma', '^provincia #2', '^municipio #2', '^nudo afeccion', '^comentarios']
     metricas:
       - columna: 'capacidad.*disponible'
         excluir: 'no disponible'
