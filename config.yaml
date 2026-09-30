@@ -41,6 +41,7 @@ fuentes:
     reserva: ['^nudo de concurso']
 
   - id: ide_generacion
+    navegador: true               # i-DE bloquea las peticiones directas desde GitHub
     nombre: i-DE generación
     gestor: i-DE
     tipo: generación
@@ -55,6 +56,7 @@ fuentes:
         excluir: 'no disponible'
 
   - id: ide_demanda
+    navegador: true               # i-DE bloquea las peticiones directas desde GitHub
     nombre: i-DE demanda
     gestor: i-DE
     tipo: demanda
