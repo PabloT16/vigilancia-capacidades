@@ -1,0 +1,137 @@
+{
+ "fuentes": {
+  "ree_generacion": {
+   "id": "ree_generacion",
+   "nombre": "REE generación",
+   "gestor": "REE",
+   "tipo": "generación",
+   "pagina": "https://www.ree.es/es/clientes/generador/acceso-conexion/conoce-la-capacidad-de-acceso",
+   "ultima": {
+    "fecha": "2026-09-01",
+    "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_generacion.csv",
+    "sello": "1 de septiembre de 2026",
+    "anterior": "",
+    "detectado": "2026-09-30T09:43:51+02:00",
+    "informe": "informes/ree_generacion_2026-09-01.xlsx",
+    "contadores": {
+     "afloramiento": 0,
+     "incremento": 0,
+     "autoconsumo_afloramiento": 0,
+     "autoconsumo_incremento": 0,
+     "reserva": 0,
+     "nudo_nuevo": 0
+    },
+    "avisos": [
+     "No hay publicación anterior con la que comparar; se toma esta como referencia."
+    ]
+   },
+   "error": "",
+   "historial": [
+    {
+     "fecha": "2026-09-01",
+     "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_generacion.csv",
+     "sello": "1 de septiembre de 2026",
+     "anterior": "",
+     "detectado": "2026-09-30T09:43:51+02:00",
+     "informe": "informes/ree_generacion_2026-09-01.xlsx",
+     "contadores": {
+      "afloramiento": 0,
+      "incremento": 0,
+      "autoconsumo_afloramiento": 0,
+      "autoconsumo_incremento": 0,
+      "reserva": 0,
+      "nudo_nuevo": 0
+     },
+     "avisos": [
+      "No hay publicación anterior con la que comparar; se toma esta como referencia."
+     ]
+    }
+   ]
+  },
+  "ree_demanda": {
+   "id": "ree_demanda",
+   "nombre": "REE demanda",
+   "gestor": "REE",
+   "tipo": "demanda",
+   "pagina": "https://www.ree.es/es/clientes/consumidor/acceso-conexion/conoce-la-capacidad-de-acceso",
+   "ultima": {
+    "fecha": "2026-09-01",
+    "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_demanda.csv",
+    "sello": "1 de septiembre de 2026",
+    "anterior": "",
+    "detectado": "2026-09-30T09:43:54+02:00",
+    "informe": "informes/ree_demanda_2026-09-01.xlsx",
+    "contadores": {
+     "afloramiento": 0,
+     "incremento": 0,
+     "autoconsumo_afloramiento": 0,
+     "autoconsumo_incremento": 0,
+     "reserva": 0,
+     "nudo_nuevo": 0
+    },
+    "avisos": [
+     "No hay publicación anterior con la que comparar; se toma esta como referencia."
+    ]
+   },
+   "error": "",
+   "historial": [
+    {
+     "fecha": "2026-09-01",
+     "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_demanda.csv",
+     "sello": "1 de septiembre de 2026",
+     "anterior": "",
+     "detectado": "2026-09-30T09:43:54+02:00",
+     "informe": "informes/ree_demanda_2026-09-01.xlsx",
+     "contadores": {
+      "afloramiento": 0,
+      "incremento": 0,
+      "autoconsumo_afloramiento": 0,
+      "autoconsumo_incremento": 0,
+      "reserva": 0,
+      "nudo_nuevo": 0
+     },
+     "avisos": [
+      "No hay publicación anterior con la que comparar; se toma esta como referencia."
+     ]
+    }
+   ]
+  },
+  "ide_generacion": {
+   "id": "ide_generacion",
+   "nombre": "i-DE generación",
+   "gestor": "i-DE",
+   "tipo": "generación",
+   "pagina": "https://www.i-de.es/conexion-red-electrica/produccion-energia/mapa-capacidad-acceso",
+   "error": "HTTPError: HTTP 503",
+   "error_desde": "2026-09-30T09:44:32+02:00"
+  },
+  "ide_demanda": {
+   "id": "ide_demanda",
+   "nombre": "i-DE demanda",
+   "gestor": "i-DE",
+   "tipo": "demanda",
+   "pagina": "https://www.i-de.es/conexion-red-electrica/suministro-electrico/mapa-capacidad-consumo",
+   "error": "HTTPError: HTTP 503",
+   "error_desde": "2026-09-30T09:45:08+02:00"
+  },
+  "edistribucion_generacion": {
+   "id": "edistribucion_generacion",
+   "nombre": "e-distribución generación",
+   "gestor": "e-distribución",
+   "tipo": "generación",
+   "pagina": "https://www.edistribucion.com/es/red-electrica/nodos-capacidad-red/capacidad-generacion.html",
+   "error": "FormatoDesconocido: No encuentro la columna identificadora ('^identificador del punto de conexion').",
+   "error_desde": "2026-09-30T09:45:12+02:00"
+  },
+  "edistribucion_demanda": {
+   "id": "edistribucion_demanda",
+   "nombre": "e-distribución demanda",
+   "gestor": "e-distribución",
+   "tipo": "demanda",
+   "pagina": "https://www.edistribucion.com/es/red-electrica/nodos-capacidad-red/capacidad-demanda.html",
+   "error": "FormatoDesconocido: No encuentro la columna identificadora ('^identificador del punto de conexion').",
+   "error_desde": "2026-09-30T09:45:15+02:00"
+  }
+ },
+ "hallazgos": []
+}

@@ -1,0 +1,22 @@
+{
+ "ree_generacion": {
+  "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_generacion.csv",
+  "fecha": "2026-09-01",
+  "formato": "csv",
+  "firma": "",
+  "sha256": "cd9e4fe7f3ef824df57639bb9d82f845a508480a713881bdcd565e50fc58b71a",
+  "fichero": "data/ree_generacion/2026-09-01_cd9e4fe7.csv.gz",
+  "comprobado": "2026-09-30",
+  "detectado": "2026-09-30T09:43:51+02:00"
+ },
+ "ree_demanda": {
+  "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_demanda.csv",
+  "fecha": "2026-09-01",
+  "formato": "csv",
+  "firma": "",
+  "sha256": "8d428165ecbf73c520717c551c1faa94c3461639e68a87d670031c667ccd3e3d",
+  "fichero": "data/ree_demanda/2026-09-01_8d428165.csv.gz",
+  "comprobado": "2026-09-30",
+  "detectado": "2026-09-30T09:43:54+02:00"
+ }
+}
