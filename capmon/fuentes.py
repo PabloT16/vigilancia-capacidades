@@ -13,7 +13,21 @@ from bs4 import BeautifulSoup
 from .tabla import patron, quitar_acentos
 
 AGENTE = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
-          "Chrome/128.0 Safari/537.36 VigilanciaCapacidades/1.0")
+          "Chrome/131.0.0.0 Safari/537.36")
+CABECERAS = {
+    "User-Agent": AGENTE,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate",
+    "Upgrade-Insecure-Requests": "1",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-User": "?1",
+    "sec-ch-ua": '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"',
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": '"Windows"',
+}
 
 
 @dataclass(frozen=True)
@@ -28,21 +42,24 @@ class Enlace:
 
 def sesion() -> requests.Session:
     s = requests.Session()
-    s.headers.update({"User-Agent": AGENTE, "Accept-Language": "es-ES,es;q=0.9"})
+    s.headers.update(CABECERAS)
     return s
 
 
-def pedir(s: requests.Session, url: str, metodo: str = "GET", intentos: int = 3, **kw) -> requests.Response:
+def pedir(s: requests.Session, url: str, metodo: str = "GET", intentos: int = 4, **kw) -> requests.Response:
     ultimo_error = None
     for i in range(intentos):
         try:
             r = s.request(metodo, url, timeout=60, allow_redirects=True, **kw)
-            if r.status_code in (429, 500, 502, 503, 504):
-                raise requests.HTTPError(f"HTTP {r.status_code}", response=r)
+            if r.status_code in (403, 429, 500, 502, 503, 504):
+                servidor = r.headers.get("Server", "desconocido")
+                raise requests.HTTPError(f"HTTP {r.status_code} (servidor: {servidor}; "
+                                         f"posible bloqueo a las máquinas de GitHub)", response=r)
             return r
         except requests.RequestException as e:
             ultimo_error = e
-            time.sleep(5 * 2 ** i)
+            if i < intentos - 1:
+                time.sleep(10 * 2 ** i)
     raise ultimo_error
 
 
