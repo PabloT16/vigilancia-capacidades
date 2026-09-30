@@ -2,7 +2,9 @@ name: Vigilancia de capacidades
 
 on:
   schedule:
+    # Horas en UTC. Días 1 a 10: cada 15 minutos de 06:00 a 23:45 (hora peninsular de verano).
     - cron: "*/15 4-21 1-10 * *"
+    # Resto del mes: cada 3 horas, por si alguien republica fuera de fecha.
     - cron: "5 */3 11-31 * *"
   workflow_dispatch:
     inputs:
@@ -36,6 +38,15 @@ jobs:
 
       - name: Instalar dependencias
         run: pip install -r requirements.txt
+
+      - name: Recuperar navegador de la caché
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: Instalar navegador (para i-DE)
+        run: python -m playwright install --with-deps chromium
 
       - name: Revisar publicaciones
         env:
