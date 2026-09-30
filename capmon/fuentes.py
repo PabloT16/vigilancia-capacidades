@@ -146,3 +146,118 @@ def anterior_por_url(s: requests.Session, actual: Enlace) -> Enlace | None:
         except requests.RequestException:
             continue
     return None
+
+
+# ---------------------------------------------------------------- acceso por HTTP o con navegador real
+class AccesoHTTP:
+    """Acceso normal con requests (REE y e-distribución)."""
+
+    def __init__(self, s: requests.Session):
+        self.s = s
+
+    def pagina(self, url: str) -> tuple[str, str]:
+        r = pedir(self.s, url)
+        r.raise_for_status()
+        return r.text, r.url
+
+    def firma(self, url: str) -> str:
+        return firma(self.s, url)
+
+    def descargar(self, url: str) -> bytes:
+        return descargar(self.s, url)
+
+
+_JS_DESCARGA = """async (url) => {
+  const r = await fetch(url, {credentials: 'include'});
+  if (!r.ok) return {estado: r.status};
+  const b = new Uint8Array(await r.arrayBuffer());
+  let s = '';
+  for (let i = 0; i < b.length; i += 0x8000) s += String.fromCharCode.apply(null, b.subarray(i, i + 0x8000));
+  return {estado: 200, tipo: r.headers.get('content-type') || '', datos: btoa(s)};
+}"""
+
+_JS_FIRMA = """async (url) => {
+  try {
+    const r = await fetch(url, {method: 'HEAD', credentials: 'include'});
+    if (!r.ok) return '';
+    return ['etag', 'last-modified', 'content-length'].map(h => r.headers.get(h) || '').join('|');
+  } catch (e) { return ''; }
+}"""
+
+
+class AccesoNavegador:
+    """Chromium real sin pantalla, para webs que bloquean las peticiones que no vienen de un navegador (i-DE).
+
+    La página se abre como lo haría una persona y los ficheros se descargan con fetch() desde dentro
+    de esa misma página, de modo que llevan la huella y las cookies del navegador."""
+
+    _pw = _navegador = None
+
+    def __init__(self, espera_s: int = 8):
+        self.espera_s = espera_s
+        self.pagina_abierta = None
+
+    @classmethod
+    def _lanzar(cls):
+        if cls._navegador is None:
+            from playwright.sync_api import sync_playwright
+
+            cls._pw = sync_playwright().start()
+            argumentos = ["--disable-blink-features=AutomationControlled", "--lang=es-ES"]
+            try:  # modo headless "nuevo", más difícil de distinguir de un Chrome normal
+                cls._navegador = cls._pw.chromium.launch(channel="chromium", args=argumentos)
+            except Exception:
+                cls._navegador = cls._pw.chromium.launch(args=argumentos)
+        return cls._navegador
+
+    @classmethod
+    def cerrar(cls):
+        if cls._navegador is not None:
+            cls._navegador.close()
+            cls._pw.stop()
+            cls._navegador = cls._pw = None
+
+    def pagina(self, url: str) -> tuple[str, str]:
+        contexto = self._lanzar().new_context(user_agent=AGENTE, locale="es-ES", timezone_id="Europe/Madrid",
+                                              viewport={"width": 1366, "height": 900},
+                                              extra_http_headers={"Accept-Language": "es-ES,es;q=0.9"})
+        contexto.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        pg = contexto.new_page()
+        estado = None
+        for intento in range(3):
+            respuesta = pg.goto(url, wait_until="domcontentloaded", timeout=90_000)
+            try:
+                pg.wait_for_load_state("networkidle", timeout=20_000)
+            except Exception:
+                pass
+            estado = respuesta.status if respuesta else None
+            if estado and estado < 400:
+                break
+            pg.wait_for_timeout(self.espera_s * 1000 * (intento + 1))  # algunos filtros validan y recargan
+        if not estado or estado >= 400:
+            titulo = pg.title()
+            contexto.close()
+            raise requests.HTTPError(f"HTTP {estado} también con navegador real (título: '{titulo[:80]}'); "
+                                     f"el bloqueo parece por dirección de origen")
+        self.pagina_abierta = pg
+        return pg.content(), pg.url
+
+    def firma(self, url: str) -> str:
+        return self.pagina_abierta.evaluate(_JS_FIRMA, url) if self.pagina_abierta else ""
+
+    def descargar(self, url: str) -> bytes:
+        import base64
+
+        if self.pagina_abierta is None:
+            raise RuntimeError("Hay que abrir la página antes de descargar")
+        r = self.pagina_abierta.evaluate(_JS_DESCARGA, url)
+        if r.get("estado") != 200:
+            raise requests.HTTPError(f"HTTP {r.get('estado')} al descargar con navegador: {url}")
+        contenido = base64.b64decode(r["datos"])
+        if contenido[:15].lstrip().lower().startswith((b"<!doctype", b"<html")):
+            raise ValueError(f"La URL devolvió una página web en lugar de un fichero: {url}")
+        return contenido
+
+
+def acceso(fuente: dict, s: requests.Session):
+    return AccesoNavegador() if fuente.get("navegador") else AccesoHTTP(s)

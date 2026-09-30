@@ -55,15 +55,15 @@ def _url_publica(raiz: Path, ruta: Path) -> str:
 
 def procesar(raiz: Path, config: dict, fuente: dict, s, estado: dict, sin_avisos: bool, forzar: bool) -> str:
     fid = fuente["id"]
-    r = F.pedir(s, fuente["pagina"])
-    r.raise_for_status()
-    enlaces = F.descubrir(r.text, r.url, fuente["patron_fichero"])
+    acc = F.acceso(fuente, s)
+    texto, url_pagina = acc.pagina(fuente["pagina"])
+    enlaces = F.descubrir(texto, url_pagina, fuente["patron_fichero"])
     actual = F.elegir(enlaces)
     if not actual:
         raise FormatoDesconocido("No encuentro en la página ningún fichero que encaje con 'patron_fichero'.")
 
     previo = estado.get(fid, {})
-    huella = F.firma(s, actual.url)
+    huella = acc.firma(actual.url)
     hoy = ahora().date().isoformat()
     if not forzar and previo.get("url") == actual.url:
         if huella and previo.get("firma") == huella:
@@ -71,7 +71,7 @@ def procesar(raiz: Path, config: dict, fuente: dict, s, estado: dict, sin_avisos
         if not huella and previo.get("comprobado") == hoy:
             return "sin cambios (revisado hoy)"
 
-    contenido = F.descargar(s, actual.url)
+    contenido = acc.descargar(actual.url)
     sha = hashlib.sha256(contenido).hexdigest()
     if not forzar and previo.get("sha256") == sha:
         previo.update(firma=huella, comprobado=hoy)
@@ -91,7 +91,7 @@ def procesar(raiz: Path, config: dict, fuente: dict, s, estado: dict, sin_avisos
         if not anterior and fuente.get("anterior_por_url"):
             anterior = F.anterior_por_url(s, actual)
         if anterior:
-            contenido_ant = F.descargar(s, anterior.url)
+            contenido_ant = acc.descargar(anterior.url)
             _guardar_bruto(raiz, fid, anterior, contenido_ant)
 
     if contenido_ant is None:
@@ -105,7 +105,7 @@ def procesar(raiz: Path, config: dict, fuente: dict, s, estado: dict, sin_avisos
 
     informe = raiz / "docs" / "informes" / f"{fid}_{actual.fecha.isoformat()}.xlsx"
     escribir_excel(informe, fuente, actual, anterior, resultado, float(config.get("umbral_incremento_mw", 10)))
-    registrar_publicacion(raiz, fuente, actual, anterior, resultado, informe, F.sello(r.text, fuente.get("sello")))
+    registrar_publicacion(raiz, fuente, actual, anterior, resultado, informe, F.sello(texto, fuente.get("sello")))
     estado[fid] = {"url": actual.url, "fecha": actual.fecha.isoformat(), "formato": actual.formato, "firma": huella,
                    "sha256": sha, "fichero": ruta_act.relative_to(raiz).as_posix(), "comprobado": hoy,
                    "detectado": ahora().isoformat()}
@@ -139,6 +139,7 @@ def vigilar(raiz: Path, sin_avisos: bool = False, forzar: bool = False, solo: li
                               f"<b>No he podido revisar {html.escape(fuente['nombre'])}</b>\n{html.escape(mensaje)}\n"
                               f"Puede que haya cambiado la web o el formato. Diagnóstico: python -m capmon inspeccionar {fuente['id']}")
         _guardar_estado(raiz, estado)
+    F.AccesoNavegador.cerrar()
     generar_html(raiz, config)
     return 1 if fallos == len([f for f in config["fuentes"] if not solo or f["id"] in solo]) else 0
 
@@ -146,20 +147,20 @@ def vigilar(raiz: Path, sin_avisos: bool = False, forzar: bool = False, solo: li
 def inspeccionar(raiz: Path, fid: str) -> None:
     config = cargar_config(raiz)
     fuente = next(f for f in config["fuentes"] if f["id"] == fid)
-    s = F.sesion()
-    r = F.pedir(s, fuente["pagina"])
-    print(f"Página {r.status_code}: {r.url}\nSello: {F.sello(r.text, fuente.get('sello')) or '(no encontrado)'}")
-    enlaces = F.descubrir(r.text, r.url, fuente["patron_fichero"])
+    acc = F.acceso(fuente, F.sesion())
+    texto, url_pagina = acc.pagina(fuente["pagina"])
+    print(f"Página: {url_pagina}\nSello: {F.sello(texto, fuente.get('sello')) or '(no encontrado)'}")
+    enlaces = F.descubrir(texto, url_pagina, fuente["patron_fichero"])
     print(f"Ficheros que encajan con el patrón ({len(enlaces)}):")
     for e in enlaces[:8]:
         print(f"   {e.fecha}  {e.formato}  {e.url}")
     actual = F.elegir(enlaces)
     if not actual:
         print("Ninguno. Revisa 'patron_fichero' en config.yaml. Enlaces de la página con csv/xlsx:")
-        for e in F.descubrir(r.text, r.url, r"(\d{4})\D?(\d{2})\D?(\d{2})"):
+        for e in F.descubrir(texto, url_pagina, r"(\d{4})\D?(\d{2})\D?(\d{2})"):
             print(f"   {e.url}")
         return
-    df = leer_tabla(F.descargar(s, actual.url), actual.nombre())
+    df = leer_tabla(acc.descargar(actual.url), actual.nombre())
     print(f"\nFichero vigente: {actual.nombre()}  ({len(df)} filas)\nColumnas detectadas:")
     for c in df.columns:
         print(f"   {c}")
