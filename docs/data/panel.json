@@ -7,26 +7,41 @@
    "tipo": "generación",
    "pagina": "https://www.ree.es/es/clientes/generador/acceso-conexion/conoce-la-capacidad-de-acceso",
    "ultima": {
-    "fecha": "2026-09-01",
-    "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_generacion.csv",
-    "sello": "1 de septiembre de 2026",
-    "anterior": "",
-    "detectado": "2026-09-30T10:07:03+02:00",
-    "informe": "informes/ree_generacion_2026-09-01.xlsx",
+    "fecha": "2026-10-01",
+    "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_10_01_GRT_generacion.csv",
+    "sello": "1 de octubre de 2026",
+    "anterior": "2026-09-01",
+    "detectado": "2026-10-01T08:15:36+02:00",
+    "informe": "informes/ree_generacion_2026-10-01.xlsx",
     "contadores": {
-     "afloramiento": 0,
-     "incremento": 0,
+     "afloramiento": 6,
+     "incremento": 55,
      "autoconsumo_afloramiento": 0,
      "autoconsumo_incremento": 0,
-     "reserva": 0,
+     "reserva": 1,
      "nudo_nuevo": 0
     },
-    "avisos": [
-     "No hay publicación anterior con la que comparar; se toma esta como referencia."
-    ]
+    "avisos": []
    },
    "error": "",
    "historial": [
+    {
+     "fecha": "2026-10-01",
+     "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_10_01_GRT_generacion.csv",
+     "sello": "1 de octubre de 2026",
+     "anterior": "2026-09-01",
+     "detectado": "2026-10-01T08:15:36+02:00",
+     "informe": "informes/ree_generacion_2026-10-01.xlsx",
+     "contadores": {
+      "afloramiento": 6,
+      "incremento": 55,
+      "autoconsumo_afloramiento": 0,
+      "autoconsumo_incremento": 0,
+      "reserva": 1,
+      "nudo_nuevo": 0
+     },
+     "avisos": []
+    },
     {
      "fecha": "2026-09-01",
      "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_generacion.csv",
@@ -55,12 +70,12 @@
    "tipo": "demanda",
    "pagina": "https://www.ree.es/es/clientes/consumidor/acceso-conexion/conoce-la-capacidad-de-acceso",
    "ultima": {
-    "fecha": "2026-09-01",
-    "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_demanda.csv",
-    "sello": "1 de septiembre de 2026",
-    "anterior": "",
-    "detectado": "2026-09-30T10:07:16+02:00",
-    "informe": "informes/ree_demanda_2026-09-01.xlsx",
+    "fecha": "2026-10-01",
+    "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_10_01_GRT_demanda.csv",
+    "sello": "1 de octubre de 2026",
+    "anterior": "2026-09-01",
+    "detectado": "2026-10-01T08:15:48+02:00",
+    "informe": "informes/ree_demanda_2026-10-01.xlsx",
     "contadores": {
      "afloramiento": 0,
      "incremento": 0,
@@ -70,11 +85,54 @@
      "nudo_nuevo": 0
     },
     "avisos": [
-     "No hay publicación anterior con la que comparar; se toma esta como referencia."
+     "Columna nueva este mes (no se compara): DEMANDA | CEP | CH",
+     "Columna nueva este mes (no se compara): DEMANDA | CEP | SH",
+     "Columna nueva este mes (no se compara): DEMANDA | NO CEP",
+     "Columna nueva este mes (no se compara): ALMACENAMIENTO | CEP (MPE)",
+     "Columna nueva este mes (no se compara): ALMACENAMIENTO | NO CEP (MGES)",
+     "Columna nueva este mes (no se compara): DEMANDA SE PUEDE ATENDER CON VALOR DE REFERENCIA | CEP conectado al primer nivel de transformación RdD | CH",
+     "Columna nueva este mes (no se compara): DEMANDA SE PUEDE ATENDER CON VALOR DE REFERENCIA | CEP conectado al primer nivel de transformación RdD | SH",
+     "Columna nueva este mes (no se compara): DEMANDA NO SE PUEDE ATENDER CON VALOR DE REFERENCIA | CEP conectado al primer nivel de transformación RdD | CH",
+     "Columna nueva este mes (no se compara): DEMANDA NO SE PUEDE ATENDER CON VALOR DE REFERENCIA | CEP conectado al primer nivel de transformación RdD | SH",
+     "Columna nueva este mes (no se compara): DEMANDA NO SE PUEDE ATENDER CON VALOR DE REFERENCIA | NO CEP o CEP no conectado al primer nivel de transformación RdD",
+     "Columna nueva este mes (no se compara): ALMACENAMIENTO SE PUEDE ATENDER CON VALOR DE REFERENCIA | MPE conectado al primer nivel de transformación RdD",
+     "Columna nueva este mes (no se compara): ALMACENAMIENTO NO SE PUEDE ATENDER CON VALOR DE REFERENCIA | MPE conectado al primer nivel de transformación RdD",
+     "Columna nueva este mes (no se compara): ALMACENAMIENTO NO SE PUEDE ATENDER CON VALOR DE REFERENCIA | MGES o MPE no conectado al primer nivel de transformación RdD"
     ]
    },
    "error": "",
    "historial": [
+    {
+     "fecha": "2026-10-01",
+     "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_10_01_GRT_demanda.csv",
+     "sello": "1 de octubre de 2026",
+     "anterior": "2026-09-01",
+     "detectado": "2026-10-01T08:15:48+02:00",
+     "informe": "informes/ree_demanda_2026-10-01.xlsx",
+     "contadores": {
+      "afloramiento": 0,
+      "incremento": 0,
+      "autoconsumo_afloramiento": 0,
+      "autoconsumo_incremento": 0,
+      "reserva": 0,
+      "nudo_nuevo": 0
+     },
+     "avisos": [
+      "Columna nueva este mes (no se compara): DEMANDA | CEP | CH",
+      "Columna nueva este mes (no se compara): DEMANDA | CEP | SH",
+      "Columna nueva este mes (no se compara): DEMANDA | NO CEP",
+      "Columna nueva este mes (no se compara): ALMACENAMIENTO | CEP (MPE)",
+      "Columna nueva este mes (no se compara): ALMACENAMIENTO | NO CEP (MGES)",
+      "Columna nueva este mes (no se compara): DEMANDA SE PUEDE ATENDER CON VALOR DE REFERENCIA | CEP conectado al primer nivel de transformación RdD | CH",
+      "Columna nueva este mes (no se compara): DEMANDA SE PUEDE ATENDER CON VALOR DE REFERENCIA | CEP conectado al primer nivel de transformación RdD | SH",
+      "Columna nueva este mes (no se compara): DEMANDA NO SE PUEDE ATENDER CON VALOR DE REFERENCIA | CEP conectado al primer nivel de transformación RdD | CH",
+      "Columna nueva este mes (no se compara): DEMANDA NO SE PUEDE ATENDER CON VALOR DE REFERENCIA | CEP conectado al primer nivel de transformación RdD | SH",
+      "Columna nueva este mes (no se compara): DEMANDA NO SE PUEDE ATENDER CON VALOR DE REFERENCIA | NO CEP o CEP no conectado al primer nivel de transformación RdD",
+      "Columna nueva este mes (no se compara): ALMACENAMIENTO SE PUEDE ATENDER CON VALOR DE REFERENCIA | MPE conectado al primer nivel de transformación RdD",
+      "Columna nueva este mes (no se compara): ALMACENAMIENTO NO SE PUEDE ATENDER CON VALOR DE REFERENCIA | MPE conectado al primer nivel de transformación RdD",
+      "Columna nueva este mes (no se compara): ALMACENAMIENTO NO SE PUEDE ATENDER CON VALOR DE REFERENCIA | MGES o MPE no conectado al primer nivel de transformación RdD"
+     ]
+    },
     {
      "fecha": "2026-09-01",
      "url": "https://www.ree.es/sites/default/files/12_CLIENTES/Documentos/2026_09_01_GRT_demanda.csv",
@@ -1653,6 +1711,998 @@
    },
    "fuente_id": "edistribucion_demanda",
    "fuente": "e-distribución demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "MOLINES 66",
+   "nudo": "MOLINES 66",
+   "metrica": "Generación | MPE RdD",
+   "antes": 0.0,
+   "ahora": 3.0,
+   "delta": 3.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Islas Baleares",
+    "Código Subestación": "50375"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "MOLINES 66",
+   "nudo": "MOLINES 66",
+   "metrica": "Almacenamiento | MPE RdD",
+   "antes": 0.0,
+   "ahora": 3.0,
+   "delta": 3.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Islas Baleares",
+    "Código Subestación": "50375"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "GRAN TARAJAL 132",
+   "nudo": "GRAN TARAJAL 132",
+   "metrica": "Generación | MPE RdT",
+   "antes": 0.0,
+   "ahora": 1.0,
+   "delta": 1.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Canarias",
+    "Código Subestación": "50249"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "GRAN TARAJAL 132",
+   "nudo": "GRAN TARAJAL 132",
+   "metrica": "Almacenamiento | MPE RdT",
+   "antes": 0.0,
+   "ahora": 1.0,
+   "delta": 1.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Canarias",
+    "Código Subestación": "50249"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "VALLEJERA 220",
+   "nudo": "VALLEJERA 220",
+   "metrica": "Generación | MPE RdT",
+   "antes": 0.0,
+   "ahora": 1.0,
+   "delta": 1.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Castilla y León",
+    "Código Subestación": "50633"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "VALLEJERA 220",
+   "nudo": "VALLEJERA 220",
+   "metrica": "Almacenamiento | MPE RdT",
+   "antes": 0.0,
+   "ahora": 1.0,
+   "delta": 1.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Castilla y León",
+    "Código Subestación": "50633"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "LAS MAZORRAS 220",
+   "nudo": "LAS MAZORRAS 220",
+   "metrica": "Generación | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 62.0,
+   "ahora": 162.0,
+   "delta": 100.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Castilla y León",
+    "Código Subestación": "50314"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "LAS MAZORRAS 220",
+   "nudo": "LAS MAZORRAS 220",
+   "metrica": "Generación | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 62.0,
+   "ahora": 162.0,
+   "delta": 100.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Castilla y León",
+    "Código Subestación": "50314"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "LAS MAZORRAS 220",
+   "nudo": "LAS MAZORRAS 220",
+   "metrica": "Almacenamiento | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 62.0,
+   "ahora": 162.0,
+   "delta": 100.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Castilla y León",
+    "Código Subestación": "50314"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "LAS MAZORRAS 220",
+   "nudo": "LAS MAZORRAS 220",
+   "metrica": "Almacenamiento | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 66.0,
+   "ahora": 166.0,
+   "delta": 100.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Castilla y León",
+    "Código Subestación": "50314"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "PARAMO DE POZA 220",
+   "nudo": "PARAMO DE POZA 220",
+   "metrica": "Generación | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 34.0,
+   "ahora": 79.0,
+   "delta": 45.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Castilla y León",
+    "Código Subestación": "50426"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "PARAMO DE POZA 220",
+   "nudo": "PARAMO DE POZA 220",
+   "metrica": "Almacenamiento | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 34.0,
+   "ahora": 79.0,
+   "delta": 45.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Castilla y León",
+    "Código Subestación": "50426"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ALVARADO 220",
+   "nudo": "ALVARADO 220",
+   "metrica": "Generación | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 20.0,
+   "ahora": 62.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50032"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ALVARADO 220",
+   "nudo": "ALVARADO 220",
+   "metrica": "Generación | MPE RdT",
+   "antes": 20.0,
+   "ahora": 62.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50032"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ALVARADO 220",
+   "nudo": "ALVARADO 220",
+   "metrica": "Generación | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 20.0,
+   "ahora": 62.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50032"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ALVARADO 220",
+   "nudo": "ALVARADO 220",
+   "metrica": "Generación | MPE RdD",
+   "antes": 20.0,
+   "ahora": 62.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50032"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ALVARADO 220",
+   "nudo": "ALVARADO 220",
+   "metrica": "Almacenamiento | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 20.0,
+   "ahora": 62.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50032"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ALVARADO 220",
+   "nudo": "ALVARADO 220",
+   "metrica": "Almacenamiento | MPE RdT",
+   "antes": 20.0,
+   "ahora": 62.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50032"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ALVARADO 220",
+   "nudo": "ALVARADO 220",
+   "metrica": "Almacenamiento | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 41.0,
+   "ahora": 83.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50032"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ALVARADO 220",
+   "nudo": "ALVARADO 220",
+   "metrica": "Almacenamiento | MPE RdD",
+   "antes": 41.0,
+   "ahora": 83.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50032"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "VAGUADAS 220",
+   "nudo": "VAGUADAS 220",
+   "metrica": "Generación | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 20.0,
+   "ahora": 62.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50621"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "VAGUADAS 220",
+   "nudo": "VAGUADAS 220",
+   "metrica": "Generación | MPE RdT",
+   "antes": 20.0,
+   "ahora": 62.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50621"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "VAGUADAS 220",
+   "nudo": "VAGUADAS 220",
+   "metrica": "Generación | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 20.0,
+   "ahora": 62.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50621"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "VAGUADAS 220",
+   "nudo": "VAGUADAS 220",
+   "metrica": "Generación | MPE RdD",
+   "antes": 20.0,
+   "ahora": 62.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50621"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "VAGUADAS 220",
+   "nudo": "VAGUADAS 220",
+   "metrica": "Almacenamiento | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 20.0,
+   "ahora": 62.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50621"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "VAGUADAS 220",
+   "nudo": "VAGUADAS 220",
+   "metrica": "Almacenamiento | MPE RdT",
+   "antes": 20.0,
+   "ahora": 62.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50621"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "VAGUADAS 220",
+   "nudo": "VAGUADAS 220",
+   "metrica": "Almacenamiento | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 41.0,
+   "ahora": 83.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50621"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "VAGUADAS 220",
+   "nudo": "VAGUADAS 220",
+   "metrica": "Almacenamiento | MPE RdD",
+   "antes": 41.0,
+   "ahora": 83.0,
+   "delta": 42.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Extremadura",
+    "Código Subestación": "50621"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "CODONYERS 220",
+   "nudo": "CODONYERS 220",
+   "metrica": "Generación | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 299.0,
+   "ahora": 339.0,
+   "delta": 40.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Cataluña",
+    "Código Subestación": "50163"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "CODONYERS 220",
+   "nudo": "CODONYERS 220",
+   "metrica": "Generación | MPE RdD",
+   "antes": 299.0,
+   "ahora": 339.0,
+   "delta": 40.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Cataluña",
+    "Código Subestación": "50163"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "CODONYERS 220",
+   "nudo": "CODONYERS 220",
+   "metrica": "Almacenamiento | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 299.0,
+   "ahora": 339.0,
+   "delta": 40.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Cataluña",
+    "Código Subestación": "50163"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "BARRUNDIA 220",
+   "nudo": "BARRUNDIA 220",
+   "metrica": "Generación | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 34.0,
+   "ahora": 63.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "País Vasco",
+    "Código Subestación": "51418"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "BARRUNDIA 220",
+   "nudo": "BARRUNDIA 220",
+   "metrica": "Generación | MPE RdT",
+   "antes": 34.0,
+   "ahora": 63.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "País Vasco",
+    "Código Subestación": "51418"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "BARRUNDIA 220",
+   "nudo": "BARRUNDIA 220",
+   "metrica": "Generación | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 34.0,
+   "ahora": 63.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "País Vasco",
+    "Código Subestación": "51418"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "BARRUNDIA 220",
+   "nudo": "BARRUNDIA 220",
+   "metrica": "Generación | MPE RdD",
+   "antes": 34.0,
+   "ahora": 63.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "País Vasco",
+    "Código Subestación": "51418"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "BARRUNDIA 220",
+   "nudo": "BARRUNDIA 220",
+   "metrica": "Almacenamiento | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 34.0,
+   "ahora": 63.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "País Vasco",
+    "Código Subestación": "51418"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "BARRUNDIA 220",
+   "nudo": "BARRUNDIA 220",
+   "metrica": "Almacenamiento | MPE RdT",
+   "antes": 34.0,
+   "ahora": 63.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "País Vasco",
+    "Código Subestación": "51418"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "BARRUNDIA 220",
+   "nudo": "BARRUNDIA 220",
+   "metrica": "Almacenamiento | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 34.0,
+   "ahora": 63.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "País Vasco",
+    "Código Subestación": "51418"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "BARRUNDIA 220",
+   "nudo": "BARRUNDIA 220",
+   "metrica": "Almacenamiento | MPE RdD",
+   "antes": 34.0,
+   "ahora": 63.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "País Vasco",
+    "Código Subestación": "51418"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "CONSO 220",
+   "nudo": "CONSO 220",
+   "metrica": "Generación | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 52.0,
+   "ahora": 81.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Galicia",
+    "Código Subestación": "50170"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "CONSO 220",
+   "nudo": "CONSO 220",
+   "metrica": "Generación | MPE RdT",
+   "antes": 52.0,
+   "ahora": 81.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Galicia",
+    "Código Subestación": "50170"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "CONSO 220",
+   "nudo": "CONSO 220",
+   "metrica": "Almacenamiento | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 52.0,
+   "ahora": 81.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Galicia",
+    "Código Subestación": "50170"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "CONSO 220",
+   "nudo": "CONSO 220",
+   "metrica": "Almacenamiento | MPE RdT",
+   "antes": 52.0,
+   "ahora": 81.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Galicia",
+    "Código Subestación": "50170"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ELGEA 220",
+   "nudo": "ELGEA 220",
+   "metrica": "Generación | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 34.0,
+   "ahora": 63.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "País Vasco",
+    "Código Subestación": "50203"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ELGEA 220",
+   "nudo": "ELGEA 220",
+   "metrica": "Generación | MPE RdT",
+   "antes": 34.0,
+   "ahora": 63.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "País Vasco",
+    "Código Subestación": "50203"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ELGEA 220",
+   "nudo": "ELGEA 220",
+   "metrica": "Almacenamiento | MGES RdTo MPE con compensador síncrono RdT",
+   "antes": 34.0,
+   "ahora": 63.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "País Vasco",
+    "Código Subestación": "50203"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ELGEA 220",
+   "nudo": "ELGEA 220",
+   "metrica": "Almacenamiento | MPE RdT",
+   "antes": 34.0,
+   "ahora": 63.0,
+   "delta": 29.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "País Vasco",
+    "Código Subestación": "50203"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "HOSPITALET 220",
+   "nudo": "HOSPITALET 220",
+   "metrica": "Generación | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 724.0,
+   "ahora": 744.0,
+   "delta": 20.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Cataluña",
+    "Código Subestación": "50270"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "HOSPITALET 220",
+   "nudo": "HOSPITALET 220",
+   "metrica": "Generación | MPE RdD",
+   "antes": 679.0,
+   "ahora": 699.0,
+   "delta": 20.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Cataluña",
+    "Código Subestación": "50270"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "HOSPITALET 220",
+   "nudo": "HOSPITALET 220",
+   "metrica": "Almacenamiento | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 724.0,
+   "ahora": 744.0,
+   "delta": 20.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Cataluña",
+    "Código Subestación": "50270"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "HOSPITALET 220",
+   "nudo": "HOSPITALET 220",
+   "metrica": "Almacenamiento | MPE RdD",
+   "antes": 679.0,
+   "ahora": 699.0,
+   "delta": 20.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Cataluña",
+    "Código Subestación": "50270"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "TRINITAT 220",
+   "nudo": "TRINITAT 220",
+   "metrica": "Generación | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 774.0,
+   "ahora": 794.0,
+   "delta": 20.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Cataluña",
+    "Código Subestación": "50614"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "TRINITAT 220",
+   "nudo": "TRINITAT 220",
+   "metrica": "Generación | MPE RdD",
+   "antes": 116.0,
+   "ahora": 136.0,
+   "delta": 20.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Cataluña",
+    "Código Subestación": "50614"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "TRINITAT 220",
+   "nudo": "TRINITAT 220",
+   "metrica": "Almacenamiento | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 774.0,
+   "ahora": 794.0,
+   "delta": 20.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Cataluña",
+    "Código Subestación": "50614"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "TRINITAT 220",
+   "nudo": "TRINITAT 220",
+   "metrica": "Almacenamiento | MPE RdD",
+   "antes": 116.0,
+   "ahora": 136.0,
+   "delta": 20.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Cataluña",
+    "Código Subestación": "50614"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ONDINAS 220",
+   "nudo": "ONDINAS 220",
+   "metrica": "Generación | MPE RdT",
+   "antes": 6.0,
+   "ahora": 20.0,
+   "delta": 14.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Castilla y León",
+    "Código Subestación": "50414"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "ONDINAS 220",
+   "nudo": "ONDINAS 220",
+   "metrica": "Almacenamiento | MPE RdT",
+   "antes": 6.0,
+   "ahora": 20.0,
+   "delta": 14.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Castilla y León",
+    "Código Subestación": "50414"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "GENETO 66",
+   "nudo": "GENETO 66",
+   "metrica": "Generación | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 43.0,
+   "ahora": 53.0,
+   "delta": 10.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Canarias",
+    "Código Subestación": "50245"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "GENETO 66",
+   "nudo": "GENETO 66",
+   "metrica": "Generación | MPE RdD",
+   "antes": 43.0,
+   "ahora": 53.0,
+   "delta": 10.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Canarias",
+    "Código Subestación": "50245"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "GENETO 66",
+   "nudo": "GENETO 66",
+   "metrica": "Almacenamiento | MGES RdD, MPE no conectado al primer nivel de transformación RdD o MPE con compensador síncrono RdD",
+   "antes": 43.0,
+   "ahora": 53.0,
+   "delta": 10.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Canarias",
+    "Código Subestación": "50245"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "GENETO 66",
+   "nudo": "GENETO 66",
+   "metrica": "Almacenamiento | MPE RdD",
+   "antes": 43.0,
+   "ahora": 53.0,
+   "delta": 10.0,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "Canarias",
+    "Código Subestación": "50245"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
+  },
+  {
+   "categoria": "reserva",
+   "clave": "ASTILLERO 220",
+   "nudo": "ASTILLERO 220",
+   "metrica": "Motivo de reserva de capacidad de acceso en el nudo",
+   "antes": null,
+   "ahora": null,
+   "delta": null,
+   "detalle": "Posible concurso. Antes: sin reserva",
+   "contexto": {
+    "Comunidad Autónoma": "Cantabria",
+    "Código Subestación": "50062"
+   },
+   "fuente_id": "ree_generacion",
+   "fuente": "REE generación"
   }
  ]
 }
