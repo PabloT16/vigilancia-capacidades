@@ -6,7 +6,7 @@
   "firma": "",
   "sha256": "f731b16248e6d57bfcfb7ac01f82aa5834d9de405565bd009d3a6c2df3c1efd1",
   "fichero": "data/ree_generacion/2026-10-01_f731b162.csv.gz",
-  "comprobado": "2026-10-01",
+  "comprobado": "2026-10-02",
   "detectado": "2026-10-01T08:15:36+02:00"
  },
  "ree_demanda": {
@@ -16,7 +16,7 @@
   "firma": "",
   "sha256": "485ad3a29888125f946f3fe9b832f7f7116709d45e226d928982e7521e19bd1a",
   "fichero": "data/ree_demanda/2026-10-01_485ad3a2.csv.gz",
-  "comprobado": "2026-10-01",
+  "comprobado": "2026-10-02",
   "detectado": "2026-10-01T08:15:48+02:00"
  },
  "edistribucion_generacion": {
