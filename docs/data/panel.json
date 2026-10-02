@@ -160,7 +160,7 @@
    "gestor": "i-DE",
    "tipo": "generación",
    "pagina": "https://www.i-de.es/conexion-red-electrica/produccion-energia/mapa-capacidad-acceso",
-   "error": "HTTPError: HTTP 503 también con navegador real (título: 'i-DE. Grupo IBERDROLA. Service unavailable'); el bloqueo parece por dirección de origen",
+   "error": "",
    "error_desde": "2026-10-02T08:10:13+02:00",
    "ultima": {
     "fecha": "2026-09-04",
@@ -205,7 +205,7 @@
    "gestor": "i-DE",
    "tipo": "demanda",
    "pagina": "https://www.i-de.es/conexion-red-electrica/suministro-electrico/mapa-capacidad-consumo",
-   "error": "HTTPError: HTTP 503 también con navegador real (título: 'i-DE. Grupo IBERDROLA. Service unavailable'); el bloqueo parece por dirección de origen",
+   "error": "",
    "error_desde": "2026-10-02T08:11:04+02:00",
    "ultima": {
     "fecha": "2026-09-04",
