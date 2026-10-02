@@ -287,15 +287,15 @@
    "error": "",
    "error_desde": "2026-09-30T09:45:12+02:00",
    "ultima": {
-    "fecha": "2026-10-02",
-    "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/generacion/202610/2026_10_02_R1299_generación.csv",
+    "fecha": "2026-09-03",
+    "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/generacion/202609/2026_09_03_R1299_generación.csv",
     "sello": "",
-    "anterior": "2026-09-03",
-    "detectado": "2026-10-02T10:09:31+02:00",
-    "informe": "informes/edistribucion_generacion_2026-10-02.xlsx",
+    "anterior": "2026-10-02",
+    "detectado": "2026-10-02T12:28:41+02:00",
+    "informe": "informes/edistribucion_generacion_2026-09-03.xlsx",
     "contadores": {
-     "afloramiento": 40,
-     "incremento": 21,
+     "afloramiento": 0,
+     "incremento": 8,
      "autoconsumo_afloramiento": 0,
      "autoconsumo_incremento": 0,
      "reserva": 0,
@@ -304,6 +304,23 @@
     "avisos": []
    },
    "historial": [
+    {
+     "fecha": "2026-09-03",
+     "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/generacion/202609/2026_09_03_R1299_generación.csv",
+     "sello": "",
+     "anterior": "2026-10-02",
+     "detectado": "2026-10-02T12:28:41+02:00",
+     "informe": "informes/edistribucion_generacion_2026-09-03.xlsx",
+     "contadores": {
+      "afloramiento": 0,
+      "incremento": 8,
+      "autoconsumo_afloramiento": 0,
+      "autoconsumo_incremento": 0,
+      "reserva": 0,
+      "nudo_nuevo": 0
+     },
+     "avisos": []
+    },
     {
      "fecha": "2026-10-02",
      "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/generacion/202610/2026_10_02_R1299_generación.csv",
@@ -314,23 +331,6 @@
      "contadores": {
       "afloramiento": 40,
       "incremento": 21,
-      "autoconsumo_afloramiento": 0,
-      "autoconsumo_incremento": 0,
-      "reserva": 0,
-      "nudo_nuevo": 0
-     },
-     "avisos": []
-    },
-    {
-     "fecha": "2026-09-03",
-     "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/generacion/202609/2026_09_03_R1299_generación.csv",
-     "sello": "",
-     "anterior": "2026-10-02",
-     "detectado": "2026-10-02T09:56:11+02:00",
-     "informe": "informes/edistribucion_generacion_2026-09-03.xlsx",
-     "contadores": {
-      "afloramiento": 0,
-      "incremento": 8,
       "autoconsumo_afloramiento": 0,
       "autoconsumo_incremento": 0,
       "reserva": 0,
@@ -349,14 +349,14 @@
    "error": "",
    "error_desde": "2026-09-30T09:45:15+02:00",
    "ultima": {
-    "fecha": "2026-10-02",
-    "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202610/2026_10_02_R1299_demanda.csv",
+    "fecha": "2026-09-03",
+    "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202609/2026_09_03_R1299_demanda.csv",
     "sello": "",
-    "anterior": "2026-09-03",
-    "detectado": "2026-10-02T09:56:13+02:00",
-    "informe": "informes/edistribucion_demanda_2026-10-02.xlsx",
+    "anterior": "2026-10-02",
+    "detectado": "2026-10-02T12:28:43+02:00",
+    "informe": "informes/edistribucion_demanda_2026-09-03.xlsx",
     "contadores": {
-     "afloramiento": 3,
+     "afloramiento": 2,
      "incremento": 2,
      "autoconsumo_afloramiento": 0,
      "autoconsumo_incremento": 0,
@@ -367,14 +367,14 @@
    },
    "historial": [
     {
-     "fecha": "2026-10-02",
-     "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202610/2026_10_02_R1299_demanda.csv",
+     "fecha": "2026-09-03",
+     "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202609/2026_09_03_R1299_demanda.csv",
      "sello": "",
-     "anterior": "2026-09-03",
-     "detectado": "2026-10-02T09:56:13+02:00",
-     "informe": "informes/edistribucion_demanda_2026-10-02.xlsx",
+     "anterior": "2026-10-02",
+     "detectado": "2026-10-02T12:28:43+02:00",
+     "informe": "informes/edistribucion_demanda_2026-09-03.xlsx",
      "contadores": {
-      "afloramiento": 3,
+      "afloramiento": 2,
       "incremento": 2,
       "autoconsumo_afloramiento": 0,
       "autoconsumo_incremento": 0,
@@ -384,14 +384,14 @@
      "avisos": []
     },
     {
-     "fecha": "2026-09-03",
-     "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202609/2026_09_03_R1299_demanda.csv",
+     "fecha": "2026-10-02",
+     "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202610/2026_10_02_R1299_demanda.csv",
      "sello": "",
-     "anterior": "2026-10-02",
-     "detectado": "2026-10-02T09:33:05+02:00",
-     "informe": "informes/edistribucion_demanda_2026-09-03.xlsx",
+     "anterior": "2026-09-03",
+     "detectado": "2026-10-02T09:56:13+02:00",
+     "informe": "informes/edistribucion_demanda_2026-10-02.xlsx",
      "contadores": {
-      "afloramiento": 2,
+      "afloramiento": 3,
       "incremento": 2,
       "autoconsumo_afloramiento": 0,
       "autoconsumo_incremento": 0,
@@ -1395,1208 +1395,6 @@
    },
    "fuente_id": "ree_generacion",
    "fuente": "REE generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "1250067 | 15",
-   "nudo": "MAGALLON 15 kV",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 5.56,
-   "delta": 5.56,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "02 - Aragón",
-    "Provincia": "Zaragoza",
-    "Municipio": "Magallón"
-   },
-   "fuente_id": "edistribucion_demanda",
-   "fuente": "e-distribución demanda"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "533105218 | 66",
-   "nudo": "CANUELO 66 kV",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 1.5,
-   "delta": 1.5,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Cádiz",
-    "Municipio": "Barrios, Los"
-   },
-   "fuente_id": "edistribucion_demanda",
-   "fuente": "e-distribución demanda"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "532508386 | 66",
-   "nudo": "ISLAVERD 66 kV",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 1.45,
-   "delta": 1.45,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Cádiz",
-    "Municipio": "Algeciras"
-   },
-   "fuente_id": "edistribucion_demanda",
-   "fuente": "e-distribución demanda"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "56019211 | 132",
-   "nudo": "LANCHA 132 kV",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 46.38,
-   "ahora": 99.7,
-   "delta": 53.32,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Córdoba",
-    "Municipio": "Córdoba"
-   },
-   "fuente_id": "edistribucion_demanda",
-   "fuente": "e-distribución demanda"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "468 | 66",
-   "nudo": "BESOS 66 kV",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 22.62,
-   "ahora": 41.07,
-   "delta": 18.45,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "09 - Catalunya",
-    "Provincia": "Barcelona",
-    "Municipio": "Sant Adrià de Besòs",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_demanda",
-   "fuente": "e-distribución demanda"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "58101014 | 20",
-   "nudo": "ONUBA 20 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 34.59,
-   "delta": 34.59,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Huelva",
-    "Nudo Afección RdT": "ONUBA 220",
-    "Comentarios": "Capacidad que podría no estar disponible en su totalidad, en función de la explotación de sus barras. A determinar en estudio individual."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "58101014 | 66",
-   "nudo": "ONUBA 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 34.59,
-   "delta": 34.59,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Huelva",
-    "Nudo Afección RdT": "ONUBA 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "531374511 | 66",
-   "nudo": "ALGAIDA 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 26.69,
-   "delta": 26.69,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Málaga",
-    "Municipio": "Villanueva de Algaidas",
-    "Nudo Afección RdT": "LOS RAMOS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "532923838 | 66",
-   "nudo": "N_CORRAL 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 22.31,
-   "delta": 22.31,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Aljaraque",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "510050805 | 15",
-   "nudo": "BOTA 15 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 20.69,
-   "delta": 20.69,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Punta Umbría",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "510050805 | 66",
-   "nudo": "BOTA 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 20.69,
-   "delta": 20.69,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Punta Umbría",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "533271538 | 66",
-   "nudo": "ODIEL 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 20.49,
-   "delta": 20.49,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Huelva",
-    "Nudo Afección RdT": "ONUBA 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "510051746 | 15",
-   "nudo": "CARTAYA 15 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 19.94,
-   "delta": 19.94,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Cartaya",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "510051746 | 66",
-   "nudo": "CARTAYA 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 19.94,
-   "delta": 19.94,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Cartaya",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "531374511 | 20",
-   "nudo": "ALGAIDA 20 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 18.72,
-   "delta": 18.72,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Málaga",
-    "Municipio": "Villanueva de Algaidas",
-    "Nudo Afección RdT": "LOS RAMOS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "532923838 | 15",
-   "nudo": "N_CORRAL 15 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 16.75,
-   "delta": 16.75,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Aljaraque",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "58103430 | 15",
-   "nudo": "LEPE 15 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 15.61,
-   "delta": 15.61,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Lepe",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "58103430 | 66",
-   "nudo": "LEPE 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 15.61,
-   "delta": 15.61,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Lepe",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "533384804 | 15",
-   "nudo": "ANTILLA 15 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 15.31,
-   "delta": 15.31,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Lepe",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "533384804 | 66",
-   "nudo": "ANTILLA 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 15.31,
-   "delta": 15.31,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Lepe",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "510051936 | 15",
-   "nudo": "AYAMONTE 15 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 14.77,
-   "delta": 14.77,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Ayamonte",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "510051936 | 66",
-   "nudo": "AYAMONTE 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 14.77,
-   "delta": 14.77,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Ayamonte",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "531801927 | 66",
-   "nudo": "NENERNOV 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 14.68,
-   "delta": 14.68,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Ayamonte",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "531795739 | 15",
-   "nudo": "PTE_ESUR 15 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 14.67,
-   "delta": 14.67,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Ayamonte",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "531795739 | 66",
-   "nudo": "PTE_ESUR 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 14.67,
-   "delta": 14.67,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Ayamonte",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "56051690 | 15",
-   "nudo": "ISLA_CRI 15 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 14.66,
-   "delta": 14.66,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Isla Cristina",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "56051690 | 66",
-   "nudo": "ISLA_CRI 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 14.66,
-   "delta": 14.66,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Isla Cristina",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "532539902 | 66",
-   "nudo": "COSTALUZ 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 14.61,
-   "delta": 14.61,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Lepe",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "531060098 | 66",
-   "nudo": "MACHOS 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 13.86,
-   "delta": 13.86,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Lepe",
-    "Nudo Afección RdT": "COSTA DE LA LUZ 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "510001918 | 132",
-   "nudo": "ARCHIDON 132 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 13.61,
-   "delta": 13.61,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Málaga",
-    "Municipio": "Archidona",
-    "Nudo Afección RdT": "LOS RAMOS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "531233601 | 66",
-   "nudo": "ALVARADO 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 2.31,
-   "delta": 2.31,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "ALVARADO 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "532476398 | 66",
-   "nudo": "T_MIGUEL 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 2.31,
-   "delta": 2.31,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Torre de Miguel Sesmero",
-    "Nudo Afección RdT": "ALVARADO 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "1250010 | 66",
-   "nudo": "SADABA 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 1.3,
-   "delta": 1.3,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "02 - Aragón",
-    "Provincia": "Zaragoza",
-    "Municipio": "Sádaba",
-    "Nudo Afección RdT": "MAGALLON 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "15061673 | 66",
-   "nudo": "VALDEFERRI 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 1.21,
-   "delta": 1.21,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "02 - Aragón",
-    "Provincia": "Zaragoza",
-    "Municipio": "Ejea de los Caballeros",
-    "Nudo Afección RdT": "MAGALLON 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "531106421 | 20",
-   "nudo": "VEGASBAJ 20 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 1.21,
-   "delta": 1.21,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "ALVARADO 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "531106421 | 66",
-   "nudo": "VEGASBAJ 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 1.21,
-   "delta": 1.21,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "ALVARADO 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "1250038 | 13",
-   "nudo": "EJEA 13 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 1.12,
-   "delta": 1.12,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "02 - Aragón",
-    "Provincia": "Zaragoza",
-    "Municipio": "Ejea de los Caballeros",
-    "Nudo Afección RdT": "MAGALLON 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "1250038 | 66",
-   "nudo": "EJEA 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 1.12,
-   "delta": 1.12,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "02 - Aragón",
-    "Provincia": "Zaragoza",
-    "Municipio": "Ejea de los Caballeros",
-    "Nudo Afección RdT": "MAGALLON 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "532238767 | 20",
-   "nudo": "CERROGOR 20 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 1.02,
-   "delta": 1.02,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "VAGUADAS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "532238767 | 66",
-   "nudo": "CERROGOR 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 1.02,
-   "delta": 1.02,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "VAGUADAS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "59101171 | 20",
-   "nudo": "BADAJOZ 20 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 0.98,
-   "delta": 0.98,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "VAGUADAS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "59101171 | 66",
-   "nudo": "BADAJOZ 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 0.98,
-   "delta": 0.98,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "VAGUADAS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "533250919 | 20",
-   "nudo": "RIOCAYA 20 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 0.98,
-   "delta": 0.98,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "VAGUADAS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "533250919 | 66",
-   "nudo": "RIOCAYA 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 0.98,
-   "delta": 0.98,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "VAGUADAS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "15496657 | 66",
-   "nudo": "VALENTIN 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 0.96,
-   "delta": 0.96,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "02 - Aragón",
-    "Provincia": "Zaragoza",
-    "Municipio": "Ejea de los Caballeros",
-    "Nudo Afección RdT": "MAGALLON 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "510051022 | 50",
-   "nudo": "COLON 50 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 47.77,
-   "ahora": 149.28,
-   "delta": 101.51,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Huelva",
-    "Nudo Afección RdT": "CRISTOBAL COLON 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "58002480 | 66",
-   "nudo": "VILLFRAG 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 35.25,
-   "ahora": 80.87,
-   "delta": 45.62,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Málaga",
-    "Municipio": "Alhaurín el Grande",
-    "Nudo Afección RdT": "ALHAURIN 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "58020973 | 66",
-   "nudo": "ALHAURIN 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 34.62,
-   "ahora": 70.02,
-   "delta": 35.4,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Málaga",
-    "Municipio": "Alhaurín de la Torre",
-    "Nudo Afección RdT": "ALHAURIN 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "518000395 | 66",
-   "nudo": "CAMPANIL 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 22.13,
-   "ahora": 57.47,
-   "delta": 35.34,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Málaga",
-    "Municipio": "Málaga",
-    "Nudo Afección RdT": "LOS RAMOS 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "518000395 | 20",
-   "nudo": "CAMPANIL 20 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 22.13,
-   "ahora": 56.55,
-   "delta": 34.42,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Málaga",
-    "Municipio": "Málaga",
-    "Nudo Afección RdT": "LOS RAMOS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "56008847 | 66",
-   "nudo": "MARYSOL 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 21.14,
-   "ahora": 51.81,
-   "delta": 30.67,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Málaga",
-    "Municipio": "Torremolinos",
-    "Nudo Afección RdT": "ALHAURIN 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "531447953 | 132",
-   "nudo": "RINCO_V 132 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 17.58,
-   "ahora": 42.31,
-   "delta": 24.73,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Málaga",
-    "Municipio": "Rincón de la Victoria",
-    "Nudo Afección RdT": "LOS RAMOS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "531447953 | 20",
-   "nudo": "RINCO_V 20 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 17.58,
-   "ahora": 42.31,
-   "delta": 24.73,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Málaga",
-    "Municipio": "Rincón de la Victoria",
-    "Nudo Afección RdT": "LOS RAMOS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "531988838 | 132",
-   "nudo": "CBERMEJA 132 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 24.16,
-   "ahora": 46.07,
-   "delta": 21.91,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Málaga",
-    "Municipio": "Casabermeja",
-    "Nudo Afección RdT": "LOS RAMOS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "513000454 | 132",
-   "nudo": "RAMOS 132 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 13.42,
-   "ahora": 32.23,
-   "delta": 18.81,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Málaga",
-    "Municipio": "Málaga",
-    "Nudo Afección RdT": "LOS RAMOS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "531988838 | 20",
-   "nudo": "CBERMEJA 20 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 4.83,
-   "ahora": 23.59,
-   "delta": 18.76,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Málaga",
-    "Municipio": "Casabermeja",
-    "Nudo Afección RdT": "LOS RAMOS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "4705430 | 110",
-   "nudo": "TARRAGONA 110 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 137.35,
-   "ahora": 153.49,
-   "delta": 16.14,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "09 - Catalunya",
-    "Provincia": "Tarragona",
-    "Municipio": "Tarragona",
-    "Nudo Afección RdT": "TARRAGONA 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "4705430 | 25",
-   "nudo": "TARRAGONA 25 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 137.35,
-   "ahora": 153.49,
-   "delta": 16.14,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "09 - Catalunya",
-    "Provincia": "Tarragona",
-    "Municipio": "Tarragona",
-    "Nudo Afección RdT": "TARRAGONA 220",
-    "Comentarios": "Capacidad que podría no estar disponible en su totalidad, en función de la explotación de sus barras. A determinar en estudio individual."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "56051396 | 20",
-   "nudo": "NEVERO 20 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 45.78,
-   "ahora": 61.19,
-   "delta": 15.41,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "VAGUADAS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "56051396 | 66",
-   "nudo": "NEVERO 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 45.78,
-   "ahora": 61.19,
-   "delta": 15.41,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "VAGUADAS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "58100236 | 66",
-   "nudo": "TORREARE 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 31.17,
-   "ahora": 44.89,
-   "delta": 13.72,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Palos de la Frontera",
-    "Nudo Afección RdT": "TORREARENILLAS 220"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "58100236 | 20",
-   "nudo": "TORREARE 20 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 31.17,
-   "ahora": 43.39,
-   "delta": 12.22,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Huelva",
-    "Municipio": "Palos de la Frontera",
-    "Nudo Afección RdT": "TORREARENILLAS 220",
-    "Comentarios": "Capacidad que podría no estar disponible en su totalidad, en función de la explotación de sus barras. A determinar en estudio individual."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "59101437 | 20",
-   "nudo": "S_MARINA 20 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 46.09,
-   "ahora": 57.05,
-   "delta": 10.96,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "VAGUADAS 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "59101437 | 66",
-   "nudo": "S_MARINA 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 46.09,
-   "ahora": 57.05,
-   "delta": 10.96,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "VAGUADAS 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "532556125 | 66",
-   "nudo": "VAGUADAS 66 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 44.16,
-   "ahora": 54.69,
-   "delta": 10.53,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "11 - Extremadura",
-    "Provincia": "Badajoz",
-    "Municipio": "Badajoz",
-    "Nudo Afección RdT": "VAGUADAS 220",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "31368747 | 20",
-   "nudo": "GENETO 20 kV",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 38.44,
-   "ahora": 48.76,
-   "delta": 10.32,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "05 - Canarias",
-    "Provincia": "Santa Cruz de Tenerife",
-    "Municipio": "San Cristóbal de La Laguna",
-    "Nudo Afección RdT": "GENETO 66"
-   },
-   "fuente_id": "edistribucion_generacion",
-   "fuente": "e-distribución generación"
   },
   {
    "categoria": "afloramiento",
@@ -4426,6 +3224,221 @@
    },
    "fuente_id": "ide_demanda",
    "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "59010492 | 15",
+   "nudo": "ARVINA 15 kV",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 8.25,
+   "ahora": 26.42,
+   "delta": 18.17,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "01 - Andalucía",
+    "Provincia": "Cádiz",
+    "Municipio": "Rota",
+    "Nudo Afección RdT": "PUERTO DE SANTA MARIA 220"
+   },
+   "fuente_id": "edistribucion_generacion",
+   "fuente": "e-distribución generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "59010492 | 66",
+   "nudo": "ARVINA 66 kV",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 8.25,
+   "ahora": 26.42,
+   "delta": 18.17,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "01 - Andalucía",
+    "Provincia": "Cádiz",
+    "Municipio": "Rota",
+    "Nudo Afección RdT": "PUERTO DE SANTA MARIA 220"
+   },
+   "fuente_id": "edistribucion_generacion",
+   "fuente": "e-distribución generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "58011852 | 15",
+   "nudo": "HINOJERA 15 kV",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 7.76,
+   "ahora": 24.89,
+   "delta": 17.13,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "01 - Andalucía",
+    "Provincia": "Cádiz",
+    "Municipio": "Puerto de Santa María, El",
+    "Nudo Afección RdT": "PUERTO DE SANTA MARIA 220"
+   },
+   "fuente_id": "edistribucion_generacion",
+   "fuente": "e-distribución generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "58011852 | 66",
+   "nudo": "HINOJERA 66 kV",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 7.76,
+   "ahora": 24.89,
+   "delta": 17.13,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "01 - Andalucía",
+    "Provincia": "Cádiz",
+    "Municipio": "Puerto de Santa María, El",
+    "Nudo Afección RdT": "PUERTO DE SANTA MARIA 220"
+   },
+   "fuente_id": "edistribucion_generacion",
+   "fuente": "e-distribución generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "510015850 | 15",
+   "nudo": "ROTA 15 kV",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 7.35,
+   "ahora": 23.5,
+   "delta": 16.15,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "01 - Andalucía",
+    "Provincia": "Cádiz",
+    "Municipio": "Rota",
+    "Nudo Afección RdT": "PUERTO DE SANTA MARIA 220"
+   },
+   "fuente_id": "edistribucion_generacion",
+   "fuente": "e-distribución generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "510015850 | 66",
+   "nudo": "ROTA 66 kV",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 7.35,
+   "ahora": 23.5,
+   "delta": 16.15,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "01 - Andalucía",
+    "Provincia": "Cádiz",
+    "Municipio": "Rota",
+    "Nudo Afección RdT": "PUERTO DE SANTA MARIA 220",
+    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
+   },
+   "fuente_id": "edistribucion_generacion",
+   "fuente": "e-distribución generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "533456333 | 132",
+   "nudo": "TORROX 132 kV",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 10.51,
+   "ahora": 25.88,
+   "delta": 15.37,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "01 - Andalucía",
+    "Provincia": "Málaga",
+    "Municipio": "Torrox",
+    "Nudo Afección RdT": "LOS RAMOS 220"
+   },
+   "fuente_id": "edistribucion_generacion",
+   "fuente": "e-distribución generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "533456333 | 20",
+   "nudo": "TORROX 20 kV",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 10.51,
+   "ahora": 25.88,
+   "delta": 15.37,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "01 - Andalucía",
+    "Provincia": "Málaga",
+    "Municipio": "Torrox",
+    "Nudo Afección RdT": "LOS RAMOS 220"
+   },
+   "fuente_id": "edistribucion_generacion",
+   "fuente": "e-distribución generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "4614836 | 25",
+   "nudo": "S.C.OLORDE 25 kV",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 11.34,
+   "delta": 11.34,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "09 - Catalunya",
+    "Provincia": "Barcelona",
+    "Municipio": "Barcelona",
+    "Comentarios": "Capacidad que podría no estar disponible en su totalidad, en función de la explotación de sus barras. A determinar en estudio individual."
+   },
+   "fuente_id": "edistribucion_demanda",
+   "fuente": "e-distribución demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "468 | 25",
+   "nudo": "BESOS 25 kV",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 2.15,
+   "delta": 2.15,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "09 - Catalunya",
+    "Provincia": "Barcelona",
+    "Municipio": "Sant Adrià de Besòs"
+   },
+   "fuente_id": "edistribucion_demanda",
+   "fuente": "e-distribución demanda"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "442160 | 132",
+   "nudo": "VIC 132 kV",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 47.24,
+   "ahora": 96.63,
+   "delta": 49.39,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "09 - Catalunya",
+    "Provincia": "Barcelona",
+    "Municipio": "Vic"
+   },
+   "fuente_id": "edistribucion_demanda",
+   "fuente": "e-distribución demanda"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "461 | 25",
+   "nudo": "S.COLOMA 25 kV",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 14.98,
+   "ahora": 29.33,
+   "delta": 14.35,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "09 - Catalunya",
+    "Provincia": "Barcelona",
+    "Municipio": "Santa Coloma de Gramenet",
+    "Comentarios": "Capacidad que podría no estar disponible en su totalidad, en función de la explotación de sus barras. A determinar en estudio individual."
+   },
+   "fuente_id": "edistribucion_demanda",
+   "fuente": "e-distribución demanda"
   }
  ]
 }
