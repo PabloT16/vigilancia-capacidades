@@ -315,14 +315,14 @@
    "error": "",
    "error_desde": "2026-09-30T09:45:15+02:00",
    "ultima": {
-    "fecha": "2026-10-02",
-    "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202610/2026_10_02_R1299_demanda.csv",
+    "fecha": "2026-09-03",
+    "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202609/2026_09_03_R1299_demanda.csv",
     "sello": "",
-    "anterior": "2026-09-03",
-    "detectado": "2026-10-02T08:11:09+02:00",
-    "informe": "informes/edistribucion_demanda_2026-10-02.xlsx",
+    "anterior": "2026-10-02",
+    "detectado": "2026-10-02T09:33:05+02:00",
+    "informe": "informes/edistribucion_demanda_2026-09-03.xlsx",
     "contadores": {
-     "afloramiento": 3,
+     "afloramiento": 2,
      "incremento": 2,
      "autoconsumo_afloramiento": 0,
      "autoconsumo_incremento": 0,
@@ -333,14 +333,14 @@
    },
    "historial": [
     {
-     "fecha": "2026-10-02",
-     "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202610/2026_10_02_R1299_demanda.csv",
+     "fecha": "2026-09-03",
+     "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202609/2026_09_03_R1299_demanda.csv",
      "sello": "",
-     "anterior": "2026-09-03",
-     "detectado": "2026-10-02T08:11:09+02:00",
-     "informe": "informes/edistribucion_demanda_2026-10-02.xlsx",
+     "anterior": "2026-10-02",
+     "detectado": "2026-10-02T09:33:05+02:00",
+     "informe": "informes/edistribucion_demanda_2026-09-03.xlsx",
      "contadores": {
-      "afloramiento": 3,
+      "afloramiento": 2,
       "incremento": 2,
       "autoconsumo_afloramiento": 0,
       "autoconsumo_incremento": 0,
@@ -350,15 +350,15 @@
      "avisos": []
     },
     {
-     "fecha": "2026-09-03",
-     "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202609/2026_09_03_R1299_demanda.csv",
+     "fecha": "2026-10-02",
+     "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202610/2026_10_02_R1299_demanda.csv",
      "sello": "",
-     "anterior": "2026-08-03",
-     "detectado": "2026-09-30T10:08:26+02:00",
-     "informe": "informes/edistribucion_demanda_2026-09-03.xlsx",
+     "anterior": "2026-09-03",
+     "detectado": "2026-10-02T08:11:09+02:00",
+     "informe": "informes/edistribucion_demanda_2026-10-02.xlsx",
      "contadores": {
-      "afloramiento": 0,
-      "incremento": 5,
+      "afloramiento": 3,
+      "incremento": 2,
       "autoconsumo_afloramiento": 0,
       "autoconsumo_incremento": 0,
       "reserva": 0,
@@ -2727,86 +2727,70 @@
   },
   {
    "categoria": "afloramiento",
-   "clave": "1250067 | 15",
-   "nudo": "MAGALLON 15 kV",
+   "clave": "4614836 | 25",
+   "nudo": "S.C.OLORDE 25 kV",
    "metrica": "Capacidad firme disponible (MW)",
    "antes": 0.0,
-   "ahora": 5.56,
-   "delta": 5.56,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "02 - Aragón",
-    "Provincia": "Zaragoza",
-    "Municipio": "Magallón"
-   },
-   "fuente_id": "edistribucion_demanda",
-   "fuente": "e-distribución demanda"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "533105218 | 66",
-   "nudo": "CANUELO 66 kV",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 1.5,
-   "delta": 1.5,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Cádiz",
-    "Municipio": "Barrios, Los"
-   },
-   "fuente_id": "edistribucion_demanda",
-   "fuente": "e-distribución demanda"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "532508386 | 66",
-   "nudo": "ISLAVERD 66 kV",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 1.45,
-   "delta": 1.45,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Cádiz",
-    "Municipio": "Algeciras"
-   },
-   "fuente_id": "edistribucion_demanda",
-   "fuente": "e-distribución demanda"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "56019211 | 132",
-   "nudo": "LANCHA 132 kV",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 46.38,
-   "ahora": 99.7,
-   "delta": 53.32,
-   "detalle": "",
-   "contexto": {
-    "Comunidad Autónoma": "01 - Andalucía",
-    "Provincia": "Córdoba",
-    "Municipio": "Córdoba"
-   },
-   "fuente_id": "edistribucion_demanda",
-   "fuente": "e-distribución demanda"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "468 | 66",
-   "nudo": "BESOS 66 kV",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 22.62,
-   "ahora": 41.07,
-   "delta": 18.45,
+   "ahora": 11.34,
+   "delta": 11.34,
    "detalle": "",
    "contexto": {
     "Comunidad Autónoma": "09 - Catalunya",
     "Provincia": "Barcelona",
-    "Municipio": "Sant Adrià de Besòs",
-    "Comentarios": "Subestación con espacio insuficiente o posibles restricciones para su ampliación. Dificultad para la conexión de una nueva posición o con coste muy elevado."
+    "Municipio": "Barcelona",
+    "Comentarios": "Capacidad que podría no estar disponible en su totalidad, en función de la explotación de sus barras. A determinar en estudio individual."
+   },
+   "fuente_id": "edistribucion_demanda",
+   "fuente": "e-distribución demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "468 | 25",
+   "nudo": "BESOS 25 kV",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 2.15,
+   "delta": 2.15,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "09 - Catalunya",
+    "Provincia": "Barcelona",
+    "Municipio": "Sant Adrià de Besòs"
+   },
+   "fuente_id": "edistribucion_demanda",
+   "fuente": "e-distribución demanda"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "442160 | 132",
+   "nudo": "VIC 132 kV",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 47.24,
+   "ahora": 96.63,
+   "delta": 49.39,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "09 - Catalunya",
+    "Provincia": "Barcelona",
+    "Municipio": "Vic"
+   },
+   "fuente_id": "edistribucion_demanda",
+   "fuente": "e-distribución demanda"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "461 | 25",
+   "nudo": "S.COLOMA 25 kV",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 14.98,
+   "ahora": 29.33,
+   "delta": 14.35,
+   "detalle": "",
+   "contexto": {
+    "Comunidad Autónoma": "09 - Catalunya",
+    "Provincia": "Barcelona",
+    "Municipio": "Santa Coloma de Gramenet",
+    "Comentarios": "Capacidad que podría no estar disponible en su totalidad, en función de la explotación de sus barras. A determinar en estudio individual."
    },
    "fuente_id": "edistribucion_demanda",
    "fuente": "e-distribución demanda"
