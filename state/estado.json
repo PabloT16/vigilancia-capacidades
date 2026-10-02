@@ -40,23 +40,23 @@
   "detectado": "2026-10-02T09:56:13+02:00"
  },
  "ide_generacion": {
-  "url": "https://www.i-de.es/documents/d/guest/2026_09_04_r1-001_generacion-1-",
-  "fecha": "2026-09-04",
+  "url": "https://www.i-de.es/documents/d/guest/2026_10_02_r1-001_generacion-1-",
+  "fecha": "2026-10-02",
   "formato": "csv",
-  "firma": "|Fri, 04 Sep 2026 10:20:34 GMT|408976",
-  "sha256": "433c575f74727eab2880f1ff5e4323db11b0c9ce12ff2e71a3b8e025fe1b5171",
-  "fichero": "data/ide_generacion/2026-09-04_433c575f.csv.gz",
-  "comprobado": "2026-09-30",
-  "detectado": "2026-09-30T10:07:46+02:00"
+  "firma": "|Fri, 02 Oct 2026 08:54:05 GMT|409064",
+  "sha256": "d9a4a39af41c0c90eb7bb45d7ef41c2a06169c6d8b34b1df3147d07e903b0c33",
+  "fichero": "data/ide_generacion/2026-10-02_d9a4a39a.csv.gz",
+  "comprobado": "2026-10-02",
+  "detectado": "2026-10-02T11:30:10+02:00"
  },
  "ide_demanda": {
-  "url": "https://www.i-de.es/documents/d/guest/2026_09_04_r1-001_demanda-1-",
-  "fecha": "2026-09-04",
+  "url": "https://www.i-de.es/documents/d/guest/2026_10_02_r1-001_demanda-2-",
+  "fecha": "2026-10-02",
   "formato": "csv",
-  "firma": "|Fri, 04 Sep 2026 10:21:03 GMT|344722",
-  "sha256": "1e486a6a825bcc712ac507a3c8ff3323226a64929224c77ccb4781b1d961f524",
-  "fichero": "data/ide_demanda/2026-09-04_1e486a6a.csv.gz",
-  "comprobado": "2026-09-30",
-  "detectado": "2026-09-30T10:08:17+02:00"
+  "firma": "|Fri, 02 Oct 2026 08:53:13 GMT|344750",
+  "sha256": "c3c4535ad9c27d59f4e63007980038e8321b4d6f1804f3aeb2b63cefd199dc7e",
+  "fichero": "data/ide_demanda/2026-10-02_c3c4535a.csv.gz",
+  "comprobado": "2026-10-02",
+  "detectado": "2026-10-02T11:30:37+02:00"
  }
 }

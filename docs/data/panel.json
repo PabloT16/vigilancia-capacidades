@@ -163,15 +163,15 @@
    "error": "",
    "error_desde": "2026-10-02T10:46:51+02:00",
    "ultima": {
-    "fecha": "2026-09-04",
-    "url": "https://www.i-de.es/documents/d/guest/2026_09_04_r1-001_generacion-1-",
-    "sello": "04/09/2026 a las 13:30H",
-    "anterior": "2026-08-03",
-    "detectado": "2026-09-30T10:07:46+02:00",
-    "informe": "informes/ide_generacion_2026-09-04.xlsx",
+    "fecha": "2026-10-02",
+    "url": "https://www.i-de.es/documents/d/guest/2026_10_02_r1-001_generacion-1-",
+    "sello": "02/10/2026 a las 12:00H",
+    "anterior": "2026-09-04",
+    "detectado": "2026-10-02T11:30:10+02:00",
+    "informe": "informes/ide_generacion_2026-10-02.xlsx",
     "contadores": {
-     "afloramiento": 1,
-     "incremento": 4,
+     "afloramiento": 53,
+     "incremento": 18,
      "autoconsumo_afloramiento": 0,
      "autoconsumo_incremento": 0,
      "reserva": 0,
@@ -180,6 +180,23 @@
     "avisos": []
    },
    "historial": [
+    {
+     "fecha": "2026-10-02",
+     "url": "https://www.i-de.es/documents/d/guest/2026_10_02_r1-001_generacion-1-",
+     "sello": "02/10/2026 a las 12:00H",
+     "anterior": "2026-09-04",
+     "detectado": "2026-10-02T11:30:10+02:00",
+     "informe": "informes/ide_generacion_2026-10-02.xlsx",
+     "contadores": {
+      "afloramiento": 53,
+      "incremento": 18,
+      "autoconsumo_afloramiento": 0,
+      "autoconsumo_incremento": 0,
+      "reserva": 0,
+      "nudo_nuevo": 0
+     },
+     "avisos": []
+    },
     {
      "fecha": "2026-09-04",
      "url": "https://www.i-de.es/documents/d/guest/2026_09_04_r1-001_generacion-1-",
@@ -208,15 +225,15 @@
    "error": "",
    "error_desde": "2026-10-02T10:47:42+02:00",
    "ultima": {
-    "fecha": "2026-09-04",
-    "url": "https://www.i-de.es/documents/d/guest/2026_09_04_r1-001_demanda-1-",
+    "fecha": "2026-10-02",
+    "url": "https://www.i-de.es/documents/d/guest/2026_10_02_r1-001_demanda-2-",
     "sello": "",
-    "anterior": "2026-08-03",
-    "detectado": "2026-09-30T10:08:17+02:00",
-    "informe": "informes/ide_demanda_2026-09-04.xlsx",
+    "anterior": "2026-09-04",
+    "detectado": "2026-10-02T11:30:37+02:00",
+    "informe": "informes/ide_demanda_2026-10-02.xlsx",
     "contadores": {
-     "afloramiento": 9,
-     "incremento": 0,
+     "afloramiento": 30,
+     "incremento": 2,
      "autoconsumo_afloramiento": 0,
      "autoconsumo_incremento": 0,
      "reserva": 0,
@@ -225,6 +242,23 @@
     "avisos": []
    },
    "historial": [
+    {
+     "fecha": "2026-10-02",
+     "url": "https://www.i-de.es/documents/d/guest/2026_10_02_r1-001_demanda-2-",
+     "sello": "",
+     "anterior": "2026-09-04",
+     "detectado": "2026-10-02T11:30:37+02:00",
+     "informe": "informes/ide_demanda_2026-10-02.xlsx",
+     "contadores": {
+      "afloramiento": 30,
+      "incremento": 2,
+      "autoconsumo_afloramiento": 0,
+      "autoconsumo_incremento": 0,
+      "reserva": 0,
+      "nudo_nuevo": 0
+     },
+     "avisos": []
+    },
     {
      "fecha": "2026-09-04",
      "url": "https://www.i-de.es/documents/d/guest/2026_09_04_r1-001_demanda-1-",
@@ -370,253 +404,6 @@
   }
  },
  "hallazgos": [
-  {
-   "categoria": "afloramiento",
-   "clave": "0528066852",
-   "nudo": "PIARROYO T1",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 0.0,
-   "ahora": 3.9,
-   "delta": 3.9,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Madrid",
-    "Municipio": "Móstoles",
-    "Nivel de Tensión (kV)": "15",
-    "Nudo Afección RdT": "MORALEJA 220"
-   },
-   "fuente_id": "ide_generacion",
-   "fuente": "i-DE generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "0021046173",
-   "nudo": "MORALEJA A1 45.000",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 26.44,
-   "ahora": 39.94,
-   "delta": 13.5,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Madrid",
-    "Municipio": "Moraleja de Enmedio",
-    "Nivel de Tensión (kV)": "45",
-    "Nudo Afección RdT": "MORALEJA 220",
-    "Comentarios": "Nudo de transporte en concurso de generación"
-   },
-   "fuente_id": "ide_generacion",
-   "fuente": "i-DE generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "0021046174",
-   "nudo": "MORALEJA B1 45.000",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 25.5,
-   "ahora": 38.87,
-   "delta": 13.37,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Madrid",
-    "Municipio": "Moraleja de Enmedio",
-    "Nivel de Tensión (kV)": "45",
-    "Nudo Afección RdT": "MORALEJA 220",
-    "Comentarios": "Nudo de transporte en concurso de generación"
-   },
-   "fuente_id": "ide_generacion",
-   "fuente": "i-DE generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "0528066945",
-   "nudo": "ZARZALEJ T1",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 20.21,
-   "ahora": 32.52,
-   "delta": 12.31,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Madrid",
-    "Municipio": "Arroyomolinos",
-    "Nivel de Tensión (kV)": "45",
-    "Nudo Afección RdT": "MORALEJA 220",
-    "Comentarios": "Nudo de transporte en concurso de generación"
-   },
-   "fuente_id": "ide_generacion",
-   "fuente": "i-DE generación"
-  },
-  {
-   "categoria": "incremento",
-   "clave": "0528066756",
-   "nudo": "ELMAZO T1",
-   "metrica": "Capacidad disponible (MW)",
-   "antes": 11.25,
-   "ahora": 21.27,
-   "delta": 10.02,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Madrid",
-    "Municipio": "Fuenlabrada",
-    "Nivel de Tensión (kV)": "45",
-    "Nudo Afección RdT": "MORALEJA 220",
-    "Comentarios": "Nudo de transporte en concurso de generación"
-   },
-   "fuente_id": "ide_generacion",
-   "fuente": "i-DE generación"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "0403065157",
-   "nudo": "SALADAS T2",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 22.04,
-   "delta": 22.04,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Alicante/Alacant",
-    "Municipio": "Elx/Elche",
-    "Nivel de Tensión (kV)": "20"
-   },
-   "fuente_id": "ide_demanda",
-   "fuente": "i-DE demanda"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "0403065155",
-   "nudo": "SALADAS T1",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 22.02,
-   "delta": 22.02,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Alicante/Alacant",
-    "Municipio": "Elx/Elche",
-    "Nivel de Tensión (kV)": "20"
-   },
-   "fuente_id": "ide_demanda",
-   "fuente": "i-DE demanda"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "0012001072",
-   "nudo": "LADA 132.00",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 4.37,
-   "delta": 4.37,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Asturias",
-    "Municipio": "Langreo",
-    "Nivel de Tensión (kV)": "132"
-   },
-   "fuente_id": "ide_demanda",
-   "fuente": "i-DE demanda"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "0012050017",
-   "nudo": "LADA T1 30",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 4.37,
-   "delta": 4.37,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Asturias",
-    "Municipio": "Langreo",
-    "Nivel de Tensión (kV)": "30"
-   },
-   "fuente_id": "ide_demanda",
-   "fuente": "i-DE demanda"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "0233384401",
-   "nudo": "LADA T2 30",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 4.37,
-   "delta": 4.37,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Asturias",
-    "Municipio": "Langreo",
-    "Nivel de Tensión (kV)": "30"
-   },
-   "fuente_id": "ide_demanda",
-   "fuente": "i-DE demanda"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "0430088693",
-   "nudo": "ASOMADA T1",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 4.05,
-   "delta": 4.05,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Murcia",
-    "Municipio": "Cartagena",
-    "Nivel de Tensión (kV)": "20"
-   },
-   "fuente_id": "ide_demanda",
-   "fuente": "i-DE demanda"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "0430088720",
-   "nudo": "ASOMADA T2",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 1.02,
-   "delta": 1.02,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Murcia",
-    "Municipio": "Cartagena",
-    "Nivel de Tensión (kV)": "20"
-   },
-   "fuente_id": "ide_demanda",
-   "fuente": "i-DE demanda"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "0446177400",
-   "nudo": "BENIFERRI T1",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 0.5,
-   "delta": 0.5,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Valencia/València",
-    "Municipio": "València",
-    "Nivel de Tensión (kV)": "20"
-   },
-   "fuente_id": "ide_demanda",
-   "fuente": "i-DE demanda"
-  },
-  {
-   "categoria": "afloramiento",
-   "clave": "0528065013",
-   "nudo": "BOADILLA T1",
-   "metrica": "Capacidad firme disponible (MW)",
-   "antes": 0.0,
-   "ahora": 0.27,
-   "delta": 0.27,
-   "detalle": "",
-   "contexto": {
-    "Provincia": "Madrid",
-    "Municipio": "Boadilla del Monte",
-    "Nivel de Tensión (kV)": "20"
-   },
-   "fuente_id": "ide_demanda",
-   "fuente": "i-DE demanda"
-  },
   {
    "categoria": "afloramiento",
    "clave": "MOLINES 66",
@@ -2810,6 +2597,1835 @@
    },
    "fuente_id": "edistribucion_generacion",
    "fuente": "e-distribución generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131110100",
+   "nudo": "CRISTOBA T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 36.97,
+   "delta": 36.97,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131110101",
+   "nudo": "CRISTOBA T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 36.97,
+   "delta": 36.97,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131102003",
+   "nudo": "LANDABEN T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 36.97,
+   "delta": 36.97,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131104106",
+   "nudo": "LANDABEN T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 36.97,
+   "delta": 36.97,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131110102",
+   "nudo": "ROTXAPEA T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 36.97,
+   "delta": 36.97,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131108106",
+   "nudo": "ROTXAPEA T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 36.97,
+   "delta": 36.97,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131109108",
+   "nudo": "SLUCIA T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 36.97,
+   "delta": 36.97,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131108104",
+   "nudo": "SLUCIA T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 36.97,
+   "delta": 36.97,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131104105",
+   "nudo": "ZIZURMAY T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 36.97,
+   "delta": 36.97,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Zizur Mayor/Zizur Nagusia",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131107011",
+   "nudo": "BERITXIT T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 35.63,
+   "delta": 35.63,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0018001440",
+   "nudo": "ZAMORA T1 45",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 35.46,
+   "delta": 35.46,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Zamora",
+    "Municipio": "Valcabado",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "ZAMORA 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131107010",
+   "nudo": "BERITXIT T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 34.94,
+   "delta": 34.94,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131101011",
+   "nudo": "SADAR T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 31.73,
+   "delta": 31.73,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131113120",
+   "nudo": "IRURTZUN T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 29.31,
+   "delta": 29.31,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Irurtzun",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0034030090",
+   "nudo": "SEQUERO 66.000",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 24.72,
+   "delta": 24.72,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Rioja, La",
+    "Municipio": "Arrúbal",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "SEQUERO 220",
+    "Comentarios": "Nudo de transporte en concurso de generación"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131111126",
+   "nudo": "ARRE-CORDOV",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 22.38,
+   "delta": 22.38,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Huarte/Uharte",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131111106",
+   "nudo": "ARRE-SCRISTOBA",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 22.38,
+   "delta": 22.38,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Huarte/Uharte",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131111125",
+   "nudo": "OLLOKI T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 22.38,
+   "delta": 22.38,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Esteribar",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131113110",
+   "nudo": "IRURTZUN T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 21.97,
+   "delta": 21.97,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Irurtzun",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131111124",
+   "nudo": "OLLOKI T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 19.74,
+   "delta": 19.74,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Esteribar",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0018001469",
+   "nudo": "ZAMORA T2 45",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 18.78,
+   "delta": 18.78,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Zamora",
+    "Municipio": "Valcabado",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "ZAMORA 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0249078003",
+   "nudo": "VALDERREY T2 45",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 18.0,
+   "delta": 18.0,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Zamora",
+    "Municipio": "Zamora",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "ZAMORA 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099750",
+   "nudo": "OLLOKI T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 17.5,
+   "delta": 17.5,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Esteribar",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099651",
+   "nudo": "BERITXIT T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 17.24,
+   "delta": 17.24,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099767",
+   "nudo": "SADAR T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 17.23,
+   "delta": 17.23,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099685",
+   "nudo": "CRISTOBA T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 16.79,
+   "delta": 16.79,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099705",
+   "nudo": "IRURTZUN T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 16.58,
+   "delta": 16.58,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Irurtzun",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099649",
+   "nudo": "BERITXIT T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 16.56,
+   "delta": 16.56,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131111115",
+   "nudo": "ZUBIRI T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 15.89,
+   "delta": 15.89,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Esteribar",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131111140",
+   "nudo": "ZUBIRI T3",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 15.89,
+   "delta": 15.89,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Esteribar",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099763",
+   "nudo": "ROTXAPEA T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 13.95,
+   "delta": 13.95,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099361",
+   "nudo": "ZIZURMAY T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 13.92,
+   "delta": 13.92,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Zizur Mayor/Zizur Nagusia",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099683",
+   "nudo": "CRISTOBA T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 13.91,
+   "delta": 13.91,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099703",
+   "nudo": "IRURTZUN T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 13.86,
+   "delta": 13.86,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Irurtzun",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099752",
+   "nudo": "OLLOKI T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 13.74,
+   "delta": 13.74,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Esteribar",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099713",
+   "nudo": "LANDABEN T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 13.35,
+   "delta": 13.35,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099313",
+   "nudo": "ROTXAPEA T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 13.19,
+   "delta": 13.19,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099773",
+   "nudo": "SLUCIA T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 13.15,
+   "delta": 13.15,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131111122",
+   "nudo": "ULZAMA T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 12.64,
+   "delta": 12.64,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Ultzama",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0249078005",
+   "nudo": "VALDERREY T1 45",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 12.0,
+   "delta": 12.0,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Zamora",
+    "Municipio": "Zamora",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "ZAMORA 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131112110",
+   "nudo": "LECUMBER T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 11.83,
+   "delta": 11.83,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Lekunberri",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099775",
+   "nudo": "SLUCIA T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 11.75,
+   "delta": 11.75,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099711",
+   "nudo": "LANDABEN T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 11.72,
+   "delta": 11.72,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Pamplona/Iruña",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131111475",
+   "nudo": "ORCOYEN T4",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 7.93,
+   "delta": 7.93,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Orkoien",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099811",
+   "nudo": "ZUBIRI T3",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 7.0,
+   "delta": 7.0,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Esteribar",
+    "Nivel de Tensión (kV)": "20",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099809",
+   "nudo": "ZUBIRI T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 6.77,
+   "delta": 6.77,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Esteribar",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099365",
+   "nudo": "ARIBE T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 6.65,
+   "delta": 6.65,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Aribe",
+    "Nivel de Tensión (kV)": "20",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131111144",
+   "nudo": "ARIBE T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 6.65,
+   "delta": 6.65,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Aribe",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099787",
+   "nudo": "ULZAMA T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 5.75,
+   "delta": 5.75,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Ultzama",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ORCOYEN 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0074004343",
+   "nudo": "C.HERMOS 132.00",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 3.17,
+   "delta": 3.17,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Murcia",
+    "Municipio": "Murcia",
+    "Nivel de Tensión (kV)": "132",
+    "Nudo Afección RdT": "EL PALMAR 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0148065166",
+   "nudo": "MARKINA T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 1.0,
+   "delta": 1.0,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Bizkaia",
+    "Municipio": "Markina-Xemein",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "AZPEITIA 400"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131098752",
+   "nudo": "BERA T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 0.44,
+   "delta": 0.44,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Lesaka",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ARKALE 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131098792",
+   "nudo": "LEGASA T1",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 0.0,
+   "ahora": 0.07,
+   "delta": 0.07,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Bertizarana",
+    "Nivel de Tensión (kV)": "13,2",
+    "Nudo Afección RdT": "ARKALE 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0027004456",
+   "nudo": "ELIANA 132.00",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 557.06,
+   "ahora": 757.63,
+   "delta": 200.57,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Valencia/València",
+    "Municipio": "l'Eliana",
+    "Nivel de Tensión (kV)": "132",
+    "Nudo Afección RdT": "LA ELIANA (LIRI) 400"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0081004293",
+   "nudo": "CALPE 132.00",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 174.54,
+   "ahora": 232.44,
+   "delta": 57.9,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Alicante/Alacant",
+    "Municipio": "Calp",
+    "Nivel de Tensión (kV)": "132",
+    "Nudo Afección RdT": "MONTEBELLO 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0034030070",
+   "nudo": "ORCOYEN 66.000",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 93.83,
+   "ahora": 127.72,
+   "delta": 33.89,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Orkoien",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "ORCOYEN 220",
+    "Comentarios": "Nudo de transporte en concurso de generación"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0021004033",
+   "nudo": "ARGUELLE 132.00",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 292.39,
+   "ahora": 319.27,
+   "delta": 26.88,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Madrid",
+    "Nivel de Tensión (kV)": "132",
+    "Nudo Afección RdT": "MELANCOLICOS PM 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0021046356",
+   "nudo": "FORTUNA A1 45.000",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 68.11,
+   "ahora": 92.32,
+   "delta": 24.21,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Leganés",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "FORTUNA 220",
+    "Comentarios": "Nudo de transporte en concurso de generación"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0528150424",
+   "nudo": "PIQUENAS T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 4.41,
+   "ahora": 28.12,
+   "delta": 23.71,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Madrid",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "FORTUNA 220",
+    "Comentarios": "Nudo de transporte en concurso de generación"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0528066921",
+   "nudo": "VALDERA2 T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 4.41,
+   "ahora": 28.12,
+   "delta": 23.71,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Alcorcón",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "FORTUNA 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0021004087",
+   "nudo": "EL PILAR 132.00",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 224.15,
+   "ahora": 245.51,
+   "delta": 21.36,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Madrid",
+    "Nivel de Tensión (kV)": "132",
+    "Nudo Afección RdT": "EL PILAR PM 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0034030100",
+   "nudo": "TUDELA 66.000",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 5.54,
+   "ahora": 22.29,
+   "delta": 16.75,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Tudela",
+    "Nivel de Tensión (kV)": "66",
+    "Nudo Afección RdT": "TUDELA 220",
+    "Comentarios": "Nudo de transporte en concurso de generación"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0052004618",
+   "nudo": "VRREAL.S 132.00",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 2.09,
+   "ahora": 15.39,
+   "delta": 13.3,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Castellón/Castelló",
+    "Municipio": "Vila-real",
+    "Nivel de Tensión (kV)": "132",
+    "Nudo Afección RdT": "LA PLANA (CAST) 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0412153372",
+   "nudo": "VRREAL.S T11",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 2.09,
+   "ahora": 15.39,
+   "delta": 13.3,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Castellón/Castelló",
+    "Municipio": "Vila-real",
+    "Nivel de Tensión (kV)": "20",
+    "Nudo Afección RdT": "LA PLANA (CAST) 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0412153374",
+   "nudo": "VRREAL.S T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 2.09,
+   "ahora": 15.39,
+   "delta": 13.3,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Castellón/Castelló",
+    "Municipio": "Vila-real",
+    "Nivel de Tensión (kV)": "20",
+    "Nudo Afección RdT": "LA PLANA (CAST) 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0021009055",
+   "nudo": "C.UNIVER 132.00",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 160.89,
+   "ahora": 173.94,
+   "delta": 13.05,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Madrid",
+    "Nivel de Tensión (kV)": "132",
+    "Nudo Afección RdT": "EL PILAR PM 220",
+    "Comentarios": "Nudo de transporte en concurso de generación"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0051004462",
+   "nudo": "LA PLANA 132.00",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 2.04,
+   "ahora": 13.25,
+   "delta": 11.21,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Castellón/Castelló",
+    "Municipio": "Almassora",
+    "Nivel de Tensión (kV)": "132",
+    "Nudo Afección RdT": "LA PLANA (CAST) 220",
+    "Comentarios": "Nudo de transporte en concurso de generación"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0528066803",
+   "nudo": "LISBOA T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 9.25,
+   "ahora": 19.29,
+   "delta": 10.04,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Alcorcón",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "LUCERO 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0528066823",
+   "nudo": "MOSTOLES T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 9.25,
+   "ahora": 19.29,
+   "delta": 10.04,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Móstoles",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "LUCERO 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0528066841",
+   "nudo": "PERATA T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 9.25,
+   "ahora": 19.29,
+   "delta": 10.04,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Alcorcón",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "LUCERO 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0528066853",
+   "nudo": "PIARROYO T2",
+   "metrica": "Capacidad disponible (MW)",
+   "antes": 9.25,
+   "ahora": 19.29,
+   "delta": 10.04,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Móstoles",
+    "Nivel de Tensión (kV)": "45",
+    "Nudo Afección RdT": "LUCERO 220"
+   },
+   "fuente_id": "ide_generacion",
+   "fuente": "i-DE generación"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0083004259",
+   "nudo": "BENEJAMA 132.00",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 32.91,
+   "delta": 32.91,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Alicante/Alacant",
+    "Municipio": "Beneixama",
+    "Nivel de Tensión (kV)": "132"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0083004245",
+   "nudo": "ALHORINE 132.00",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 31.37,
+   "delta": 31.37,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Alicante/Alacant",
+    "Municipio": "Villena",
+    "Nivel de Tensión (kV)": "132"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0083004624",
+   "nudo": "VILLENA 132.00",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 30.54,
+   "delta": 30.54,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Alicante/Alacant",
+    "Municipio": "Villena",
+    "Nivel de Tensión (kV)": "132"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0082030659",
+   "nudo": "VILLENA 66.000",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 26.48,
+   "delta": 26.48,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Alicante/Alacant",
+    "Municipio": "Villena",
+    "Nivel de Tensión (kV)": "66"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0083009017",
+   "nudo": "BARXELL 132.00",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 22.38,
+   "delta": 22.38,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Alicante/Alacant",
+    "Municipio": "Alcoi/Alcoy",
+    "Nivel de Tensión (kV)": "132"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0083009021",
+   "nudo": "BASTA 132.00",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 18.06,
+   "delta": 18.06,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Alicante/Alacant",
+    "Municipio": "Castalla",
+    "Nivel de Tensión (kV)": "132"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0018001469",
+   "nudo": "ZAMORA T2 45",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 14.8,
+   "delta": 14.8,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Zamora",
+    "Municipio": "Valcabado",
+    "Nivel de Tensión (kV)": "45"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0018001440",
+   "nudo": "ZAMORA T1 45",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 14.74,
+   "delta": 14.74,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Zamora",
+    "Municipio": "Valcabado",
+    "Nivel de Tensión (kV)": "45"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0126904114",
+   "nudo": "AGONCILL T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 11.56,
+   "delta": 11.56,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Rioja, La",
+    "Municipio": "Agoncillo",
+    "Nivel de Tensión (kV)": "66"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0126904113",
+   "nudo": "AGONCILL T2",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 11.56,
+   "delta": 11.56,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Rioja, La",
+    "Municipio": "Agoncillo",
+    "Nivel de Tensión (kV)": "66"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0126901015",
+   "nudo": "HS MENDAVIA",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 11.56,
+   "delta": 11.56,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Mendavia",
+    "Nivel de Tensión (kV)": "66"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131906025",
+   "nudo": "MURIETA T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 11.56,
+   "delta": 11.56,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Murieta",
+    "Nivel de Tensión (kV)": "66"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0034030090",
+   "nudo": "SEQUERO 66.000",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 11.56,
+   "delta": 11.56,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Rioja, La",
+    "Municipio": "Arrúbal",
+    "Nivel de Tensión (kV)": "66"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0126113259",
+   "nudo": "VMEDIANA T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 11.56,
+   "delta": 11.56,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Rioja, La",
+    "Municipio": "Villamediana de Iregua",
+    "Nivel de Tensión (kV)": "13,2"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0126809020",
+   "nudo": "VMEDIANA T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 11.56,
+   "delta": 11.56,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Rioja, La",
+    "Municipio": "Villamediana de Iregua",
+    "Nivel de Tensión (kV)": "66"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0446253211",
+   "nudo": "AQUA T3",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 7.76,
+   "delta": 7.76,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Valencia/València",
+    "Municipio": "València",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0126905106",
+   "nudo": "VAREA T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 6.69,
+   "delta": 6.69,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Rioja, La",
+    "Municipio": "Logroño",
+    "Nivel de Tensión (kV)": "66"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0084030649",
+   "nudo": "VALLDA-R 66.000",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 5.76,
+   "delta": 5.76,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Valencia/València",
+    "Municipio": "Vallada",
+    "Nivel de Tensión (kV)": "66"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0528088522",
+   "nudo": "ARROYO.V T21",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 3.97,
+   "delta": 3.97,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Alcobendas",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0084030334",
+   "nudo": "ALMUSAFE 66.000",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 3.7,
+   "delta": 3.7,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Valencia/València",
+    "Municipio": "Almussafes",
+    "Nivel de Tensión (kV)": "66"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0446176374",
+   "nudo": "ALMUSAFES T2",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 3.7,
+   "delta": 3.7,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Valencia/València",
+    "Municipio": "Almussafes",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0528088562",
+   "nudo": "ARROYO.V T22",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 3.32,
+   "delta": 3.32,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Alcobendas",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0403065021",
+   "nudo": "BENEJAMA T2",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 3.13,
+   "delta": 3.13,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Alicante/Alacant",
+    "Municipio": "Beneixama",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0131099746",
+   "nudo": "MURIETA T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 2.43,
+   "delta": 2.43,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Navarra",
+    "Municipio": "Murieta",
+    "Nivel de Tensión (kV)": "13,2"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0126113251",
+   "nudo": "VAREA T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 1.45,
+   "delta": 1.45,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Rioja, La",
+    "Municipio": "Logroño",
+    "Nivel de Tensión (kV)": "13,2"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0446177734",
+   "nudo": "AQUA T2",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 1.03,
+   "delta": 1.03,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Valencia/València",
+    "Municipio": "València",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0528088439",
+   "nudo": "AGUACATE T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 0.83,
+   "delta": 0.83,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Madrid",
+    "Nivel de Tensión (kV)": "15"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0528088471",
+   "nudo": "AGUACATE T3",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 0.83,
+   "delta": 0.83,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Madrid",
+    "Municipio": "Madrid",
+    "Nivel de Tensión (kV)": "15"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0403065048",
+   "nudo": "COCENTAI T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 0.75,
+   "delta": 0.75,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Alicante/Alacant",
+    "Municipio": "Cocentaina",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "afloramiento",
+   "clave": "0446176373",
+   "nudo": "ALMUSAFES T1",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 0.0,
+   "ahora": 0.57,
+   "delta": 0.57,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Valencia/València",
+    "Municipio": "Almussafes",
+    "Nivel de Tensión (kV)": "20"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0072004314",
+   "nudo": "CARRIL 132.00",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 11.71,
+   "ahora": 45.59,
+   "delta": 33.88,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Murcia",
+    "Municipio": "Lorca",
+    "Nivel de Tensión (kV)": "132"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
+  },
+  {
+   "categoria": "incremento",
+   "clave": "0072009198",
+   "nudo": "ATEROS 132.00",
+   "metrica": "Capacidad firme disponible (MW)",
+   "antes": 10.64,
+   "ahora": 40.95,
+   "delta": 30.31,
+   "detalle": "",
+   "contexto": {
+    "Provincia": "Murcia",
+    "Municipio": "Águilas",
+    "Nivel de Tensión (kV)": "132"
+   },
+   "fuente_id": "ide_demanda",
+   "fuente": "i-DE demanda"
   }
  ]
 }
