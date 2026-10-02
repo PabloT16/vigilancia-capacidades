@@ -20,14 +20,14 @@
   "detectado": "2026-10-01T08:15:48+02:00"
  },
  "edistribucion_generacion": {
-  "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/generacion/202609/2026_09_03_R1299_generación.csv",
-  "fecha": "2026-09-03",
+  "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/generacion/202610/2026_10_02_R1299_generación.csv",
+  "fecha": "2026-10-02",
   "formato": "csv",
-  "firma": "\"0x8DF0981DFD5534C\"|Thu, 03 Sep 2026 06:09:12 GMT|290052",
-  "sha256": "c4c338e5f05269bfa8cf8d960029c5e7cc67f87571c6666410f4121468bb7d79",
-  "fichero": "data/edistribucion_generacion/2026-09-03_c4c338e5.csv.gz",
+  "firma": "\"0x8DF1FB414348F3A\"|Thu, 01 Oct 2026 12:04:00 GMT|290769",
+  "sha256": "1597cecf8a3b7041f02507bbdc6a394bfde6436f35fd2f49cd34c69d5bfcf6b9",
+  "fichero": "data/edistribucion_generacion/2026-10-02_1597cecf.csv.gz",
   "comprobado": "2026-10-02",
-  "detectado": "2026-10-02T09:56:11+02:00"
+  "detectado": "2026-10-02T10:09:31+02:00"
  },
  "edistribucion_demanda": {
   "url": "https://www.edistribucion.com/content/dam/edistribucion/conexion-a-la-red/descargables/nodos/demanda/202610/2026_10_02_R1299_demanda.csv",
